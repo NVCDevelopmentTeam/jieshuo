@@ -85,8 +85,6 @@
         <item>@string/to_previous_granularity_item</item>
        <item>@string/to_next_granularity_item</item>
 
-        <item>@string/command_auto_trans</item>
-        <item>@string/command_recognition_caption</item>
         <item>@string/add_node_changed_list</item>
         <item>@string/node_changed_list_manager</item>
 
@@ -199,26 +197,6 @@
         <item>@string/command_media_next</item>
         <item>@string/command_previous_window</item>
         <item>@string/command_next_window</item>
-        <item>@string/command_set_tts_engine</item>
-        <item>@string/profiles_title</item>
-        <item>@string/use_ocr_title</item>
-        <item>@string/command_disable_hotkey</item>
-        <item>@string/command_speak_time</item>
-        <item>@string/command_speak_net</item>
-        <item>@string/command_false_touch_prevention</item>
-        <item>@string/command_disable_main_tts</item>
-        <item>@string/command_disable_async_tts</item>
-        <item>@string/command_start_log</item>
-        <item>@string/command_virtual_table</item>
-        <item>@string/command_incall_mode</item>
-        <item>@string/command_edit_node_name</item>
-        <item>@string/command_pasue_timer</item>
-        <item>@string/command_show_input_method_picker</item>
-        <item>@string/command_raise_scr_volume</item>
-        <item>@string/command_lower_scr_volume</item>
-        <item>@string/command_speed_to_fast</item>
-        <item>@string/command_speed_to_slow</item>
-        <item>@string/command_speak_all_notification</item>
 
         </string-array>
 
@@ -950,11 +928,11 @@
         <item>Satırlar</item>
         <item>Paragraflar</item>
         <item>Sayfalar</item>
-        <item>Kopyalama modu</item>
+        <item>Kopyala ve Ek kopyala</item>
         <item>Ses seviyesi</item>
         <item>Konuşma hızı</item>
         <item>Metin Tanıma ve Çeviri</item>
-        <item>Ekran bölümleri</item>
+        <item>Pencere</item>
     </string-array>
 
     <string-array name="hot_key_help_items" >
@@ -977,7 +955,7 @@
         <item>ALT+T: Araçlar</item>
         <item>ALT+V: Sesli yardımcı</item>
         <item>ALT+S: Sözcük gezinme modu</item>
-        <item>ALT+L: Liste tarama modu</item>
+        <item>ALT+L: Liste dolaşımı</item>
 
     </string-array>
       <string-array name="view_type_title" >
@@ -994,22 +972,21 @@
         <item>Odaklanılabilir öğeler</item>
         <item>Tıklanabilir öğeler</item>
         <item>Düğümler</item>
-        <item>Kaydırıcı değeri</item>
-        <item>Düşey Dolaşım</item>
+        <item>Kaydırıcı değerini değiştir</item>
+        <item>Dikey kaydırma</item>
 
         <item>Karakterler</item>
         <item>Sözcükler</item>
         <item>Satırlar</item>
         <item>Paragraflar</item>
         <item>Sayfalar</item>
-        <item>Kopyalama modu</item>
+        <item>Kopyala ve Ek kopyala</item>
         <item>Ses seviyesi</item>
         <item>Konuşma hızı</item>
         <item>Metin Tanıma ve Çeviri</item>
-        <item>Ekran Bölümleri</item>
+        <item>Pencere</item>
 
     </string-array>
-
 
 
 </resources>

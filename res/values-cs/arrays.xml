@@ -12,10 +12,9 @@
         <item>@string/to_previous_granularity_item</item>
         <item>@string/to_next_granularity_item</item>
 
-        <item>@string/command_auto_trans</item>
-        <item>@string/command_recognition_caption</item>
         <item>@string/add_node_changed_list</item>
         <item>@string/node_changed_list_manager</item>
+
         <item>@string/command_raw_tap</item>
         <item>@string/command_to_previous_focus</item>
         <item>@string/command_to_next_focus</item>
@@ -125,29 +124,8 @@
         <item>@string/command_media_next</item>
         <item>@string/command_previous_window</item>
         <item>@string/command_next_window</item>
-        <item>@string/command_set_tts_engine</item>
-        <item>@string/profiles_title</item>
-        <item>@string/use_ocr_title</item>
-        <item>@string/command_disable_hotkey</item>
-        <item>@string/command_speak_time</item>
-        <item>@string/command_speak_net</item>
-        <item>@string/command_false_touch_prevention</item>
-        <item>@string/command_disable_main_tts</item>
-        <item>@string/command_disable_async_tts</item>
-        <item>@string/command_start_log</item>
-        <item>@string/command_virtual_table</item>
-        <item>@string/command_incall_mode</item>
-        <item>@string/command_edit_node_name</item>
-        <item>@string/command_pasue_timer</item>
-        <item>@string/command_show_input_method_picker</item>
-        <item>@string/command_raise_scr_volume</item>
-        <item>@string/command_lower_scr_volume</item>
-        <item>@string/command_speed_to_fast</item>
-        <item>@string/command_speed_to_slow</item>
-        <item>@string/command_speak_all_notification</item>
 
-        <!--item>Quick browsing mode</item-->
-    </string-array>
+        </string-array>
     <string-array name="right_menu_items">
         <item>@string/command_click</item>
         <item>@string/command_long_click</item>
@@ -932,28 +910,28 @@
         <item>nadpisy</item>
         <item>Odkazy</item>
         <item>Tlačítka</item>
-        <item>tabulky</item>
+        <item>orientační body</item>
         <item>Textová pole</item>
         <item>zaměřitelné položky</item>
         <item>ovládací prvky</item>
         <item>obrázky</item>
-        <item>Zaškrtávací pole</item>
-        <item>kombinovaná pole</item>
+        <item>Zaškrtávací políčka</item>
+        <item>pole se seznamem</item>
         <item>formuláře</item>
         <item>Seznamy</item>
         <item>Položky seznamu</item>
-        <item>posuvníky</item>
+        <item>režim rolování</item>
         <item>zobrazení</item>
         <item>znaky</item>
         <item>slova</item>
         <item>řádky</item>
         <item>odstavce</item>
         <item>stránky</item>
-        <item>Kopírovat a připojit</item>
-        <item>hlasitost médií</item>
+        <item>Režim kopírování</item>
+        <item>hlasitost</item>
         <item>Rychlost řeči</item>
-        <item>Rozpoznat a přeložit</item>
-        <item>Systémová okna</item>
+        <item>OCR a překlad</item>
+        <item>Okna</item>
 
     </string-array>
     <string-array name="hot_key_help_items">
@@ -979,18 +957,18 @@
     </string-array>
     <string-array name="view_type_title">
         <item>výchozí</item>
-        <item>text</item>
+        <item>popisky</item>
         <item>tlačítka</item>
         <item>Textová pole</item>
         <item>obrázky</item>
-        <item>Zaškrtávací pole</item>
+        <item>Zaškrtávací políčka</item>
         <item>indikátory průběhu</item>
         <item>Seznamy</item>
         <item>Položky seznamu</item>
         <item>zaměřitelné položky</item>
         <item>kliknutelné prvky</item>
         <item>Objekty</item>
-        <item>posuvníky</item>
+        <item>režim rolování</item>
         <item>vertikální navigace</item>
 
 
@@ -999,13 +977,11 @@
         <item>řádky</item>
         <item>odstavce</item>
         <item>stránky</item>
-        <item>Kopírovat a připojit</item>
-        <item>hlasitost médií</item>
+        <item>Režim kopírování</item>
+        <item>hlasitost</item>
         <item>Rychlost řeči</item>
-        <item>Rozpoznat a přeložit</item>
-        <item>Systémová okna</item>
+        <item>OCR a překlad</item>
+        <item>Okna</item>
 
     </string-array>
-
-
 </resources>

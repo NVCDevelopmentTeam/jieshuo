@@ -11,10 +11,10 @@
         <item>@string/to_next_granularity</item>
         <item>@string/to_previous_granularity_item</item>
         <item>@string/to_next_granularity_item</item>
-        <item>@string/command_auto_trans</item>
-        <item>@string/command_recognition_caption</item>
+
         <item>@string/add_node_changed_list</item>
         <item>@string/node_changed_list_manager</item>
+
         <item>@string/command_raw_tap</item>
         <item>@string/command_to_previous_focus</item>
         <item>@string/command_to_next_focus</item>
@@ -124,26 +124,6 @@
         <item>@string/command_media_next</item>
         <item>@string/command_previous_window</item>
         <item>@string/command_next_window</item>
-        <item>@string/command_set_tts_engine</item>
-        <item>@string/profiles_title</item>
-        <item>@string/use_ocr_title</item>
-        <item>@string/command_disable_hotkey</item>
-        <item>@string/command_speak_time</item>
-        <item>@string/command_speak_net</item>
-        <item>@string/command_false_touch_prevention</item>
-        <item>@string/command_disable_main_tts</item>
-        <item>@string/command_disable_async_tts</item>
-        <item>@string/command_start_log</item>
-        <item>@string/command_virtual_table</item>
-        <item>@string/command_incall_mode</item>
-        <item>@string/command_edit_node_name</item>
-        <item>@string/command_pasue_timer</item>
-        <item>@string/command_show_input_method_picker</item>
-        <item>@string/command_raise_scr_volume</item>
-        <item>@string/command_lower_scr_volume</item>
-        <item>@string/command_speed_to_fast</item>
-        <item>@string/command_speed_to_slow</item>
-        <item>@string/command_speak_all_notification</item>
 
         </string-array>
     <string-array name="right_menu_items">
@@ -256,14 +236,14 @@
         <item>0</item>
         <item>1</item>
         <item>2</item>
-    </string-array>
-    <string-array name="voice_recognizer_entries">
+  </string-array>
+  <string-array name="voice_recognizer_entries">
         <item>Sistema</item>
         <item>Motor 1</item>
         <item>Motor 2</item>
         <item>Motor 3</item>
-    </string-array>
-    <string-array name="tts_values">
+  </string-array>
+  <string-array name="tts_values">
         <item>0</item>
         <item>1</item>
         <item>2</item>
@@ -367,17 +347,17 @@
         <item>100</item>
     </string-array>
     <!--string-array name="tts_speaker_title">
-            <item>Voz femenina</item>
-            <item>Voz masculina</item>
-            <item>Feliz</item>
-            <item>Du si si</item>
-        </string-array>
-        <string-array name="tts_speaker">
-            <item>0</item>
-            <item>1</item>
-            <item>3</item>
-            <item>4</item>
-        </string-array-->
+          <item>Voz femenina</item>
+          <item>Voz masculina</item>
+          <item>Feliz</item>
+          <item>Du si si</item>
+      </string-array>
+      <string-array name="tts_speaker">
+          <item>0</item>
+          <item>1</item>
+          <item>3</item>
+          <item>4</item>
+      </string-array-->
     <string-array name="vibrate_intensity_entries">
         <item>Muy suave</item>
         <item>Suave</item>
@@ -423,7 +403,7 @@
     <string-array name="advanced_menu_items">
         <item>traducir</item>
         <item>Reconocimiento de escenas</item>
-        <item>Reconocer y traducir el texto</item>
+        <item>Reconocimiento de texto</item>
         <item>Reconocimiento de rostros</item>
         <item>Reconocimiento de captcha</item>
         <item>Resultado del reconocimiento</item>
@@ -940,10 +920,10 @@
         <item>Botones</item>
         <item>Puntos de referencia</item>
         <item>Cuadros de edición</item>
-        <item>Enfoque</item>
+        <item>Enfoque.</item>
         <item>Controles</item>
-        <item>Imágenes</item>
-        <item>Casillas de verificación</item>
+        <item>Imágenes.</item>
+        <item>Casillas de verificación.</item>
         <item>Cuadros combinados</item>
         <item>Tablas</item>
         <item>listas</item>
@@ -956,8 +936,8 @@
         <item>Párrafos</item>
         <item>páginas</item>
         <item>copiar y copiar adicional</item>
-        <item>Volumen</item>
-        <item>Velocidad de la voz</item>
+        <item>Volumen.</item>
+        <item>Velocidad del habla</item>
         <item>traducción y reconocimiento de texto</item>
         <item>Ventanas.</item>
     </string-array>
@@ -984,7 +964,7 @@
     </string-array>
     <string-array name="view_type_title">
         <item>predeterminado</item>
-        <item>Texto</item>
+        <item>Texto.</item>
         <item>botones</item>
         <item>Cuadros de edición</item>
         <item>Imágenes.</item>
@@ -993,7 +973,7 @@
         <item>listas</item>
         <item>Elementos de lista</item>
         <item>enfocable</item>
-        <item>clickable</item>
+        <item>clickeable</item>
         <item>Nodo.</item>
         <item>desplazamiento</item>
         <item>navegación vertical</item>
@@ -1004,10 +984,8 @@
         <item>páginas</item>
         <item>Copiar y copiar adicional</item>
         <item>Volumen.</item>
-        <item>Velocidad de la voz</item>
+        <item>Velocidad del habla</item>
         <item>traducción y reconocimiento de texto</item>
         <item>Ventanas.</item>
     </string-array>
-
-
 </resources>
