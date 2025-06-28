@@ -432,6 +432,8 @@
     <string name="use_custom_dict_regex">use_custom_dict_regex</string>
     <string name="profiles">profiles</string>
     <string name="profiles_data">profiles_data</string>
+<<<<<<< HEAD
+=======
     <string name="ocr_clean_keyword_data">ocr_clean_keyword_data</string>
     <string name="ocr_clean_keyword">ocr_clean_keyword</string>
     <string name="audio_focus">audio_focus</string>
@@ -495,41 +497,5 @@
     <string name="double_fling">double_fling</string>
     <string name="use_show_text">use_show_text</string>
     <string name="use_window_title_changed">use_window_title_changed</string>
-    <string name="use_edit_hint">use_edit_hint</string>
-    <string name="check_manage_files_permissions">check_manage_files_permissions</string>
-    <string name="check_alarm_permissions">check_alarm_permissions</string>
-    <string name="use_volume_on_long_speak">use_volume_on_long_speak</string>
-    <string name="default_gesture_setting">default_gesture_setting</string>
-    <string name="use_action_menu_show_cursor">use_action_menu_show_cursor</string>
-    <string name="use_action_menu_show_ext">use_action_menu_show_ext</string>
-    <string name="timer_format">timer_format</string>
-    <string name="default_gesture_type">default_gesture_type</string>
-    <string name="use_speak_state">use_speak_state</string>
-    <string name="alarm_hours">alarm_hours</string>
-    <string name="notification_in_call_no_speak">notification_in_call_no_speak</string>
-    <string name="notification_in_auto_read_no_speak">notification_in_auto_read_no_speak</string>
-    <string name="timer_action_def">timer_action_def</string>
-    <string name="use_ocr_auto_speak">use_ocr_auto_speak</string>
-    <string name="use_new_text_move_type">use_new_text_move_type</string>
-    <string name="use_answer_phone_calls_incall_gesture">use_answer_phone_calls_incall_gesture</string>
-    <string name="use_move_text_gesture">use_move_text_gesture</string>
-    <string name="use_scroll_seek_gesture">use_scroll_seek_gesture</string>
-    <string name="use_scroll_list_gesture">use_scroll_list_gesture</string>
-    <string name="use_click_dialog_gesture">use_click_dialog_gesture</string>
-    <string name="use_click_button_gesture">use_click_button_gesture</string>
-    <string name="use_up_tap_prompt">use_up_tap_prompt</string>
-    <string name="double_fling_time">double_fling_time</string>
-    <string name="system_tts_stream_type">system_tts_stream_type</string>
-    <string name="use_virtual_screen_dim_background">use_virtual_screen_dim_background</string>
-    <string name="resume_on_notification_show">resume_on_notification_show</string>
-    <string name="resume_on_ringing">resume_on_ringing</string>
-    <string name="resume_on_screen_on">resume_on_screen_on</string>
-    <string name="back_break_auto_mode">back_break_auto_mode</string>
-    <string name="app_no_supper_sound_package">app_no_supper_sound_package</string>
-    <string name="use_split_line">use_split_line</string>
-    <string name="use_input_method_speak_word">use_input_method_speak_word</string>
-    <string name="trans_lua_engine">trans_lua_engine</string>
-    <string name="edit_trans_lua">edit_trans_lua</string>
-    <string name="use_auto_mode_move_list_view_item">use_auto_mode_move_list_view_item</string>
-    <string name="voice_helper_use_big">voice_helper_use_big</string>
+>>>>>>> Vietnamese-translate
 </resources>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Jieshuo+</string>
+    <string name="app_name">Commentary Screenreader</string>
     <string name="accessibility_service_description">
         Jieshuo  Screenreader is a software that aims to make it easier for blind people to use Android-powered mobile phones more effectively. We have made some innovations in the human-machine interaction sphere. We know that fully understanding our software might take time, so we warmly encourage you to explore the settings to get help or contact us.\n
         Some functions are restricted and will only be unlocked after you purchase the full version of the app. For further details, please visit the official Telegram group.\n
@@ -59,9 +59,9 @@
     <string name="use_sound_title">Sound feedback</string>
     <string name="use_sound_summary">Controls whether Jieshuo Screenreader uses sounds to provide information</string>
 
-    <string name="use_list_index_title">Allow reading of element indexes and display range in lists</string>
+    <string name="use_list_index_title">Read the focused list item\'s index</string>
+    <string name="use_list_index_summary">Controls whether the currently focused item\'s index is read while navigating lists</string>
 
-    <string name="use_list_index_summary">Controls whether the index and visible range of items can be spoken while navigating lists.</string>
     <string name="use_node_title">use the node browsing mode</string>
     <string name="use_node_summary">Controls whether the node browsing mode is the default navigation mode</string>
 
@@ -147,15 +147,15 @@
     <string name="clipboard_manager_title">Clipboard history manager</string>
     <string name="label_manager_title">Custom label manager</string>
     <string name="menu_manager_title">Main menu manager</string>
-    <string name="menu_up_tap_title">Use Lift to Activate with Main and Functions menu items</string>
+    <string name="menu_up_tap_title">Lift your finger to activate the menu option under it</string>
     <string name="navigation_up_tap_title">Use lift to activate software navigation keys</string>
-    <string name="only_notification_title">Allow resuming browse by touch or speech feedback and browse by touch exclusively from the notification bar or by simultaneous pressing of the volume keys</string>
+    <string name="only_notification_title">Allow resuming the screenreader exclusively from the notification bar</string>
     <string name="send_log_title">Send the debug logs to the developer</string>
-    <string name="long_click_title">Holding duration </string>
-    <string name="long_click_summary">Determines the duration for which the finger must remain on an element to be identified as a long press, when either the single tap or Lift to Activate option is enabled.</string>
+    <string name="long_click_title">Double tap and hold delay</string>
+    <string name="long_click_summary">Controls for how long the item should be pressed for  the long click action to  be executed</string>
     <string name="split_select_title">Granular selection mode</string>
-    <string name="use_up_long_click_title">Hold to long press</string>
-    <string name="use_up_long_click_summary">Determines whether a long press is simulated when your finger remains on an element, provided that either the single tap or Lift to Activate option is enabled.</string>
+    <string name="use_up_long_click_title">Perform the long click action when finger stays on an element</string>
+    <string name="use_up_long_click_summary">Controls whether the long click action is simulated when your finger stays on a given element for one second</string>
     <string name="backup_manager_title">Backup manager</string>
     <string name="user_letter_map_title">Use the custom phonetics interpretation database (restart required to apply)</string>
     <string name="tts_use_offline_title">Use the high-quality cloud TTS engine</string>
@@ -247,8 +247,8 @@
     <string name="use_pager_scroll_title">Automatically scroll pages</string>
     <string name="use_supper_filter_title">Strict web content filter</string>
     <string name="change_log_title">What\'s new</string>
-    <string name="use_up_long_quick_menu_title">Hold to display the Current Per-App Gestures menu</string>
-    <string name="use_show_dis_enabled_quick_menu_title">Also show unassigned functions in the Current Per-App Gestures menu</string>
+    <string name="use_up_long_quick_menu_title">Display the current per-app gestures menu on long press</string>
+    <string name="use_show_dis_enabled_quick_menu_title">Display unavailable actions in the current per-app gestures  menu</string>
     <string name="voice_helper_setting_title">Voice assistant and translation  settings</string>
     <string name="voice_helper_copy_title">Automatically copy translation results to the clipboard</string>
     <string name="trans_lang_from_title">Source language</string>
@@ -268,7 +268,7 @@
     <string name="use_node_info_summary">Controls whether the relationship data between elements is read in the node browsing mode. The information read consists of number of child elements the current node has, plus some additional, node-specific information.</string>
     <string name="use_list_item_index_summary">Controls whether the index of the currently focused list item is read while navigating the list</string>
     <string name="use_scroll_list_index_summary">Controls whether the visual display range of the list is read automatically when scrolling commands are used</string>
-    <string name="use_view_name_summary">Specifies if the element type of the item under the focus is announced </string>
+    <string name="use_view_name_index_summary">Specifies if the element type of the item under the focus is announced </string>
     <string name="unknown_lable_summary">Controls whether the element\'s ID is read if it has no label</string>
     <string name="use_progress_summary">Controls whether changes to the currently focused progress bar are read automatically</string>
     <string name="use_content_changed_summary">Controls whether changes in the currently focused item are read automatically</string>
@@ -279,39 +279,39 @@
     <string name="use_edge_gesture_title">Use edge gestures</string>
     <string name="left_edge_gesture_title">Swipe right from the left edge of the screen</string>
     <string name="right_edge_gesture_title">Swipe left from the right edge of the screen</string>
-
-
+    <string name="right_edge_gesture_value_default">Recent applications</string>
+    <string name="left_edge_gesture_value_default">Go back</string>
     <string name="use_edge_gesture_summary">Controls whether the edge gestures are enabled. Edge gestures are swipes performed from the very left or right edge of the screen with either one or two fingers</string>
     <string name="left_edge_gesture_summary">Allows to set the action to be triggered when the right swipe from the very left edge of the screen is performed</string>
     <string name="right_edge_gesture_summary">Allows to set the action to be triggered when the left swipe from the very right edge of the screen is performed</string>
-
+    <string name="down_volume_key_value_default">Voice assistant</string>
     <string name="down_volume_key_title">Long press of the volume down key</string>
     <string name="down_volume_key_summary">Allows to set the action to be triggered when the volume down key is held</string>
     <string name="up_volume_key_title">Long press of the volume up key</string>
     <string name="up_volume_key_summary">Allows to set the action to be triggered when the volume up key is held</string>
-
+    <string name="up_volume_key_value_default">Lift to activate</string>
     <string name="use_speak_call_phone_summary">Controls whether the caller\'s name and number are being read automatically on an incoming call</string>
     <string name="use_speak_call_phone_title">Read the caller\'s ID</string>
     <string name="use_speak_changed_volume_summary">Controls whether the new volume is being read automatically when the volume is changed</string>
     <string name="use_speak_changed_volume_title">Read volume when changing</string>
     <string name="vip_qq_group_title">Jieshuo Screenreader VIP QQ group</string>
     <string name="qq_group2_title">Jieshuo Screenreader second QQ group</string>
-
-
+    <string name="right_long_edge_gesture_value_default">Notification bar</string>
+    <string name="left_long_edge_gesture_value_default">Home screen</string>
     <string name="right_long_edge_gesture_title">Swipe left from the right edge of the screen and hold</string>
     <string name="left_long_edge_gesture_title">Swipe right from the left edge of the screen and hold</string>
     <string name="left_long_edge_gesture_summary">Allows to set the action to be triggered when the right swipe from the very left edge of the screen is performed and the final position is held for one second</string>
     <string name="right_long_edge_gesture_summary">Allows to set the action to be triggered when the left swipe from the very right edge of the screen is performed and the final position is held for one second</string>
-    <string name="use_up_long_quick_menu_summary">Controls whether the Current Per-app Gestures menu is displayed when your finger remains on an element for a certain time.</string>
-
+    <string name="use_up_long_quick_menu_summary">Controls whether the Current Per-app Gestures  menu is displayed when your finger stays on an element for a longer time</string>
+    <string name="up_volume_short_key_value_default">Increase media volume</string>
     <string name="up_volume_short_key_title">Short press of the volume up key</string>
     <string name="up_volume_short_key_summary">Allows to set a custom action to be triggered when the volume up key is pressed</string>
-
+    <string name="down_volume_short_key_value_default">Decrease media volume</string>
     <string name="down_volume_short_key_title">Short press of the volume down key</string>
     <string name="down_volume_short_key_summary">Allows to set a custom action to be triggered when the volume down key is pressed</string>
     <string name="use_ringtone_volume_title">Use ringtone volume for speaking</string>
     <string name="use_ringtone_volume_summary">Controls whether the ringtone volume should be used for reading the incoming call screen</string>
-
+    <string name="up_down_volume_short_key_value_default">Suspend browse by touch</string>
     <string name="up_down_volume_short_key_summary">Allows to set the custom action to be triggered when the two volume keys are pressed simultaneously, note that there should be a very short delay between pressing the 1st volume key and the other before releasing them together</string>
     <string name="up_down_volume_short_key_title">Simultaneous press of the two volume keys</string>
     <string name="tts_engine_title">Main TTS engine</string>
@@ -326,8 +326,8 @@
     <string name="left_button_default_value">Decline|Decline*|reject|Hang up|End call|Hang up*|Previous*|Navigate up</string>
     <string name="right_button_default_value">Answer|Accept*|Accept|Speaker|Speaker phone|Next*|Send</string>
     <string name="edge_gesture_title">Edge gesture settings</string>
-    <string name="left_button_title">left shortcut keywords</string>
-    <string name="right_button_title">Right shortcut keywords</string>
+    <string name="left_button_title">Left swipe shortcut settings</string>
+    <string name="right_button_title">Right swipe shortcut settings</string>
     <string name="use_add_async_tts_title">Queue notifications</string>
     <string name="use_add_async_tts_summary">Controls whether the notifications should be queued for reading. When this option is enabled, notifications are read one by one as they come in,while when it is disabled, the previous notification is interrupted while the new one comes in. Please note that this option only works while the secondary TTS engine is active</string>
     <string name="questions_answers_title">Frequently asked questions</string>
@@ -368,12 +368,12 @@
     <string name="use_accessibility_volume_summary">Controls whether the accessibility volume channel is used for generating speech. Please note that this option is supported only when the system TTS engine is used</string>
     <string name="value_stream_accessibility">Accessibility</string>
     <string name="left_right_gesture_title">Shortcut gestures settings</string>
-    <string name="use_move_list_view_item_title">Use the shortcut gestures to quickly navigate in lists</string>
+    <string name="use_move_list_view_item_title">Use the shortcut swipes to quickly navigate in lists</string>
     <string name="no_support">Only %d and above is supported</string>
     <string name="use_pinyin_speak_title">Use Pinyin to read letters while typing</string>
     <string name="backup_restore_settings_title">Backup and restore</string>
-    <string name="backup_settings_title">Local backup</string>
-    <string name="restore_settings_title">Local restore</string>
+    <string name="backup_settings_title">Backup settings</string>
+    <string name="restore_settings_title">Restore settings</string>
     <string name="restore_settings_summary">Selecting this option lets you restore settings from a previously created backup. Please note that this option will overwrite your current settings</string>
     <string name="backup_settings_summary">Selecting this option lets you create a full backup of your current settings. Please note that this option will overwrite your current backup</string>
     <string name="jieshuo_bbs_title">Jieshuo Screenreader forum</string>
@@ -388,7 +388,7 @@
     <string name="use_double_edge_gesture_title">Use the two-finger edge menu</string>
     <string name="use_raw_click_title">Use the direct  click instead of accessibility click</string>
     <string name="has_vip_summary">%s is available only for users of the full version</string>
-    <string name="use_raw_click_summary">Controls whether a direct click is used instead of accessibility click. This option simulates a physical click in the element\'s position when using either single tap or lift to activate feature.</string>
+    <string name="use_raw_click_summary">Controls whether a direct click is used instead of accessibility click. This option simulates a physical click in the element\'s position, which might improve accessibility of some applications</string>
     <string name="vip_qq_kefu_title">Jieshuo Screenreader customer service</string>
     <string name="vip_qq_kefu_summary">Consult, purchase, transfer licenses. Please be sure to contact only the certified personnel</string>
     <string name="use_speak_changed_window_title">Read the whole window up on window change</string>
@@ -396,14 +396,14 @@
     <string name="timer_setting_title">Timer settings</string>
     <string name="voice_cmd_setting_title">Voice command settings</string>
     <string name="directory_cmd">Custom voice commands</string>
-    <string name="use_move_list_view_item_summary">This option allows for convenient navigation between items while bypassing buttons or controls related to them. By default, shortcut gestures are performed through right and left swipes or down and up swipes, based on the navigation gesture style used.</string>
+    <string name="use_move_list_view_item_summary">Controls whether the shortcut keys can be used to quickly scroll long lists</string>
     <string name="add">Add</string>
     <string name="re_def_msg">Clicking \"OK\" will restore the default settings</string>
     <string name="use_double_fling_summary">Controls whether the multi-part gestures are used. To execute a multi-part gesture, you first execute the main gesture and after its done you execute the second gesture</string>
-    <string name="voice_helper_use_gestures_title">Allow the execution of custom functions from global gesture schemes with the voice assistant</string>
-    <string name="voice_helper_use_app_gestures_title">Allow the execution of custom functions from per-app gesture schemes with the voice assistant</string>
-    <string name="voice_helper_use_cmd_title">Allow to use custom voice commands with the voice assistant</string>
-    <string name="voice_helper_use_supper_cmd_title">Allow to use super voice commands with the voice assistant</string>
+    <string name="voice_helper_use_gestures_title">Allow to execute gestures from the currently selected gesture scheme with the voice assistant</string>
+    <string name="voice_helper_use_app_gestures_title">Allow to execute gestures from the currently active per-application gesture scheme with the voice assistant</string>
+    <string name="voice_helper_use_cmd_title">Allow to use voice commands with the voice assistant</string>
+    <string name="voice_helper_use_supper_cmd_title">Allow to use custom voice commands with the voice assistant</string>
     <string name="voice_helper_use_plugin_title">Allow to execute extensions with the voice assistant</string>
     <string name="voice_helper_use_tool_title">Allow to execute tools with the voice assistant</string>
     <string name="message_has_vip">Only available for users of the full version</string>
@@ -411,10 +411,10 @@
     <string name="voice_helper_capability_setting">Voice assistant capabilities settings</string>
     <string name="use_wake_lock_pro_title">Enhanced screen locking prevention mechanism</string>
     <string name="use_wake_lock_pro_summary">It is recommended to check this option if the other option does not work</string>
-    <string name="more_setting">More</string>
+    <string name="more_setting">More options</string>
     <string name="kayword">Enter keyword</string>
     <string name="notification_black_list_summary">Notifications containing black-listed content will never be read, even if notification reading is enabled</string>
-    <string name="notification_white_list_summary">Notifications containing white-listed content will always be read, even when notification reading is disabled</string>
+    <string name="notification_while_list_summary">Notifications containing white-listed content will always be read, even when notification reading is disabled</string>
     <string name="system_tts_volume_title">System TTS volume</string>
     <string name="notification_select_title">要朗读的通知</string>
 
@@ -423,10 +423,10 @@
     <string name="runnimg_background">Jieshuo Screenreader is running in the background</string>
     <string name="description">Description</string>
     <string name="gestures_description_not_found">No documentation for the gesture scheme was found</string>
-    <string name="timer_date_format">yyyy-M-d HH:mm</string>
+    <string name="timer_date_format">yyyy-M-D HH:mm</string>
     <string name="to_all">%s to %s, %s elements in total</string>
     <string name="try_again">Please try again</string>
-    <string name="timer_and_now_time">%s . Now its %s</string>
+    <string name="timer_and_now_time">%s ellapsed. Now its %s</string>
     <string name="edit">Edit</string>
     <string name="edit_text_not_found">Text box not found</string>
     <string name="char_mode">Character by character browsing mode</string>
@@ -489,8 +489,8 @@
     <string name="command_to_next_focus">Next focusable element</string>
     <string name="command_to_previous_page">Previous page</string>
     <string name="command_to_next_page">Next page</string>
-    <string name="command_to_previous_scroll">Scroll back</string>
-    <string name="command_to_next_scroll">Scroll forward</string>
+    <string name="command_to_previous_scroll">Scroll up</string>
+    <string name="command_to_next_scroll">Scroll down</string>
     <string name="command_to_previous_progress">Decrease slider value</string>
     <string name="command_to_next_progress">Increase slider value</string>
     <string name="command_lower_volume">Decrease media volume</string>
@@ -518,10 +518,10 @@
     <string name="node_mode">Node browsing mode</string>
     <string name="ignore_battery">Please ignore battery optimization from the system settings</string>
     <string name="overlay_window">Please allow pop-up windows to be displayed from the system settings</string>
-    <string name="opened"> On</string>
-    <string name="closed"> Off</string>
-    <string name="checked"> Checked</string>
-    <string name="unchecked"> Unchecked</string>
+    <string name="opened">On</string>
+    <string name="closed">Off</string>
+    <string name="checked">Checked</string>
+    <string name="unchecked">Unchecked</string>
     <string name="page_from_to">Page %d of %d</string>
     <string name="done">Operation completed</string>
     <string name="error_try_again">Operation failed. Please try again</string>
@@ -529,21 +529,21 @@
     <string name="swipe_left">Swipe left</string>
     <string name="long_clicked">Long pressed</string>
     <string name="notification_from">New notification from %s</string>
+    <string name="progress">%d progress</string>
     <string name="item_current_count">Item %d of %d</string>
-    <string name="progress">%d percent progress</string>
     <string name="item_from_to_count">Items from %d to %d, %d items in total</string>
     <string name="point">Dot</string>
     <string name="selected">Selected</string>
     <string name="disabled">Unavailable</string>
-    <string name="progress2">%d percent</string>
-    <string name="view_name_button">Button </string>
+    <string name="progress2">%d position</string>
+    <string name="view_name_button">Button</string>
     <string name="view_name_edit_text">Text box</string>
     <string name="view_name_editing">, Editing</string>
     <string name="view_name_web_view">Web view</string>
     <string name="view_name_list_view">List</string>
-    <string name="view_name_spinner">Combo box </string>
-    <string name="view_name_switch"> Switch </string>
-    <string name="view_name_radio_button"> Radio button </string>
+    <string name="view_name_spinner">Combo box</string>
+    <string name="view_name_switch">Switch</string>
+    <string name="view_name_radio_button">Radio button</string>
     <string name="view_name_check_box">Check box</string>
     <string name="view_name_seek_bar">Slider</string>
     <string name="view_name_progress_bar">Progress bar</string>
@@ -562,11 +562,11 @@
 
 
     <string name="rap_action_settings_title">Double back tap settings</string>
-
+    <string name="back_rap_action_value_default">@string/command_now_time</string>
     <string name="back_rap_action_title">Double back tap settings</string>
     <string name="back_rap_action_summary">Allows to set an action to be triggered when the back of the phone is tapped twice</string>
 
-
+    <string name="shake_action_value_default">@string/command_nothing</string>
     <string name="shake_action_title">Shake action settings</string>
     <string name="shake_action_summary">Allows to set an action to be triggered when the device is shaken</string>
 
@@ -608,7 +608,7 @@
     <string name="command_battery_level">Battery level</string>
     <string name="command_battery">Current battery level</string>
     <string name="command_quick_menu">Current per-app gestures menu</string>
-    <string name="command_gestures_edit">Edit current Per-App gesture scheme</string>
+    <string name="command_gestures_edit">Edit current per-app gestures</string>
 
     <string name="clipboard">Clipboard</string>
     <string name="favorites">Favorites</string>
@@ -616,7 +616,7 @@
     <string name="main_menu">Main menu</string>
     <string name="auto_read">Automatic reading</string>
     <string name="list_mode_title">List browsing</string>
-    <string name="main_setting">Screen reader settings</string>
+    <string name="main_setting">Jieshuo settings</string>
     <string name="battery_level">Battery level: %d</string>
 
 
@@ -626,16 +626,16 @@
     <string name="double_fling_down_gesture_title">Down swipe</string>
 
     <string name="down_right_double_fling_setting">Down and right multi-part gesture</string>
-
-
-
-
+    <string name="down_right_double_fling_left_gesture_value_default">Go back</string>
+    <string name="down_right_double_fling_up_gesture_value_default">Home screen</string>
+    <string name="down_right_double_fling_right_gesture_value_default">[Click]</string>
+    <string name="down_right_double_fling_down_gesture_value_default">Notification bar</string>
 
     <string name="down_left_double_fling_setting">Down and left multi-part gesture</string>
-
-
-
-
+    <string name="down_left_double_fling_left_gesture_value_default">@string/command_copy</string>
+    <string name="down_left_double_fling_up_gesture_value_default">@string/command_paste</string>
+    <string name="down_left_double_fling_right_gesture_value_default">@string/command_append_copy</string>
+    <string name="down_left_double_fling_down_gesture_value_default">@string/command_long_copy</string>
 
 
     <string name="use_down_right_double_fling_gesture_title">Use the down and right multi-part gesture</string>
@@ -707,10 +707,10 @@
     <string name="fingerprint_gesture_setting">Fingerprint reader gestures</string>
     <string name="fingerprint_gesture_setting_summary">Controls whether fingerprint reader gestures are recognized by the screenreader. Please note that this option works only on Android 8 and above, and that it works only when the fingerprint reader is placed at the back of the phone</string>
     <string name="use_fingerprint_gesture_title">Use fingerprint reader gestures</string>
-
-
-
-
+    <string name="fingerprint_left_gesture_value_default">Go back</string>
+    <string name="fingerprint_right_gesture_value_default">[Click]</string>
+    <string name="fingerprint_up_gesture_value_default">Previous focusable element</string>
+    <string name="fingerprint_down_gesture_value_default">Next focusable element</string>
     <string name="command_supper_mode">Enhanced detailed focusing mode</string>
     <string name="command_ocr_focus">Recognize text of the current focused element</string>
     <string name="navi">Navigation</string>
@@ -883,7 +883,7 @@
     <string name="camera_top_move_far">raise screen</string>
     <string name="camera_top_move_near">raise phone\'s back</string>
 
-    <string name="use_text_format_read_word_title">Speak example words for letters in character navigation</string>
+    <string name="use_text_format_read_word_title">Read letters with examples (Papa, Bravo...) </string>
     <string name="restore">Restore</string>
     <string name="backup">Backup</string>
     <string name="directory_camera">Camera</string>
@@ -925,7 +925,7 @@
     <string name="system_tts_scale_summary">This function is still in beta. It allows to accelerate the TTS engine beyond its maximum available rate. It is not guaranteed to support all TTS engines</string>
     <string name="send_email_title">Email 946049229@qq.com</string>
 
-    <string name="voice_helper_use_blot_title">Enable online handling for unrecognized commands</string>
+    <string name="voice_helper_use_blot_title">Use the artificial chat assistant</string>
 
     <string name="message_recognition_empty">I did not understand your message</string>
     <string name="voice_helper_exit">Goodbye</string>
@@ -1081,12 +1081,12 @@
     <string name="sound_window_state">Window change</string>
     <string name="sound_dialog">Dialog box</string>
     <string name="sound_gesture_end">Edge gesture completion</string>
-    <string name="recognition_start">Recognition started</string>
+    <string name="recognition_start">Speech recognition started</string>
     <string name="sound_gesture_start">Edge gesture trigger</string>
-    <string name="recognition_end">Recognition stopped</string>
-    <string name="recognition_success">Recognition successful</string>
-    <string name="recognition_error">Recognition error</string>
-    <string name="recognition_cancel">Recognition cancelled</string>
+    <string name="recognition_end">Speech recognition stopped</string>
+    <string name="recognition_success">Speech recognition successful</string>
+    <string name="recognition_error">Speech recognition error</string>
+    <string name="recognition_cancel">Speech recognition cancelled</string>
     <string name="command_quick_settings">Quick settings</string>
     <string name="command_take_screenshot">Take a screenshot</string>
     <string name="command_off_screen2">Screen lock</string>
@@ -1130,7 +1130,7 @@
     <string name="msg_added">Added</string>
     <string name="msg_add_error">An error has occured while adding. Please try again</string>
     <string name="select_move_type_">Select navigation type</string>
-    <string name="msg_cancel_select">Selection mode closed</string>
+    <string name="msg_cancel_select">Unselected</string>
     <string name="msg_start_select">Selection mode</string>
     <string name="msg_all_copyed">Everything copied</string>
     <string name="scan_all_res">Scan for resources</string>
@@ -1205,8 +1205,8 @@
     <string name="previous_chapter_default_value">Previous chapter|Previous page</string>
     <string name="msg_activated">Your activation request has been submitted for review. If the activation is not performed within reasonable time, please contact Customer Service</string>
     <string name="flash_light">Flashlight</string>
-    <string name="cloud_multi_backup_title">Backup to cloud</string>
-    <string name="cloud_multi_restore_title">Restore from cloud</string>
+    <string name="cloud_multi_backup_title">Backup everything to cloud</string>
+    <string name="cloud_multi_restore_title">Restore everything from cloud</string>
     <string name="search_engine_title">Search engine</string>
     <string name="directory_notes">Notes</string>
     <string name="replace">Replace</string>
@@ -1266,9 +1266,80 @@
     <string name="green">Green</string>
     <string name="blue">Blue</string>
     <string name="stroke">Width</string>
-    <string name="gesture_2_triple_tap_hold">Triple tap and hold with two fingers</string>
+    <string name="gesture_2_triple_tap_hold">Triple tap and hold with three fingers</string>
     <string name="gesture_3_triple_tap_hold">Triple tap and hold with three fingers</string>
     <string name="gesture_4_triple_tap_hold">Triple tap and hold with four fingers</string>
+<<<<<<< HEAD
+    <string name="up_long">Slow up swipe</string>
+    <string name="up_right_long">Slow up and right swipe</string>
+    <string name="up_down_long">Slow up and down swipe</string>
+    <string name="up_left_long">Slow up and left swipe</string>
+    <string name="down_long">Slow down swipe</string>
+    <string name="down_right_long">Slow down and right swipe</string>
+    <string name="down_up_long">Slow down and up swipe</string>
+    <string name="down_left_long">Slow down and left swipe</string>
+    <string name="left_long">Slow left swipe</string>
+    <string name="left_up_long">Slow left and up swipe</string>
+    <string name="left_down_long">Slow left and down swipe</string>
+    <string name="left_right_long">Slow left and right swipe</string>
+    <string name="right_long">Slow right swipe</string>
+    <string name="right_up_long">Slow right and up swipe</string>
+    <string name="right_down_long">Slow right and down swipe</string>
+    <string name="right_left_long">Slow right and left swipe</string>
+    <string name="keep_focus_position_speak_title">朗读记忆的焦点</string>
+    <string name="save_as_cmd">保存为指令</string>
+    <string name="execute_cmd">是否运行下边指令</string>
+    <string name="command_show_nodeinfo">节点详情</string>
+    <string name="copy_as_jieshuo_cmd">复制为解说口令</string>
+    <string name="copy_text_auto_execute">复制文字自动执行</string>
+    <string name="msg_cmd_copyed">已复制，粘贴分享吧</string>
+    <string name="use_custom_dict_regex_title">词典替换时使用正则表达式</string>
+    <string name="profiles_title">情景模式</string>
+    <string name="node_details">节点详情</string>
+    <string name="msg_has_storage">该功能需要存储文件到内置存储，请授予存储权限或退出该功能</string>
+    <string name="msg_open_error">打开出错</string>
+    <string name="message_load_gesture_error">手势切换失败</string>
+    <string name="msg_gesture_empty">手势为空</string>
+    <string name="msg_sound_empty">音效为空</string>
+    <string name="msg_clipboard_empty">剪切板为空</string>
+    <string name="msg_plugin_empty">插件为空</string>
+    <string name="msg_tool_empty">工具为空</string>
+    <string name="msg_label_empty">标签为空</string>
+    <string name="msg_setting_backup_error">设置备份出错</string>
+    <string name="msg_setting_backup_done">设置备份完成</string>
+    <string name="msg_clipboard_backup_error">剪切板备份出错</string>
+    <string name="msg_clipboard_backup_done">剪切板备份完成</string>
+    <string name="msg_favorite_backup_error">收藏夹备份出错</string>
+    <string name="msg_favorite_backup_done">收藏夹备份完成</string>
+    <string name="msg_timer_backup_error">计时器备份出错</string>
+    <string name="msg_timer_backup_done">计时器备份完成</string>
+    <string name="msg_label_backup_error">标签备份出错</string>
+    <string name="msg_label_backup_done">标签备份完成</string>
+    <string name="msg_gesture_backup_error">手势备份出错</string>
+    <string name="msg_gesture_backup_done">手势备份完成</string>
+    <string name="msg_cmd_backup_error">指令备份出错</string>
+    <string name="msg_cmd_backup_done">指令备份完成</string>
+    <string name="msg_hotkey_backup_error">快捷键备份出错</string>
+    <string name="msg_hotkey_backup_done">快捷键备份完成</string>
+    <string name="msg_restore_setting_error">设置恢复出错</string>
+    <string name="msg_restore_setting_done">设置恢复完成</string>
+    <string name="msg_restore_clipboard_error">剪切板恢复出错</string>
+    <string name="msg_restore_clipboard_done">剪切板恢复完成</string>
+    <string name="msg_restore_favorite_error">收藏夹恢复出错</string>
+    <string name="msg_restore_favorite_done">收藏夹恢复完成</string>
+    <string name="msg_restore_timer_error">计时器恢复出错</string>
+    <string name="msg_restore_timer_done">计时器恢复完成</string>
+    <string name="msg_restore_label_error">标签恢复出错</string>
+    <string name="msg_restore_label_done">标签恢复完成</string>
+    <string name="msg_restore_gesture_error">手势恢复出错</string>
+    <string name="msg_restore_gesture_done">手势恢复完成</string>
+    <string name="msg_restore_cmd_error">指令恢复出错</string>
+    <string name="msg_restore_cmd_done">指令恢复完成</string>
+    <string name="msg_restore_hotkey_error">快捷键恢复出错</string>
+    <string name="msg_restore_hotkey_done">快捷键恢复完成</string>
+    <string name="profiles_summary">情景模式可以配置在不同场景下的独立设置，方便在不同情景下使用读屏</string>
+    <string name="msg_open_file_not_supported">不支持打开该文件</string>
+=======
     <string name="up_long">Long up swipe</string>
     <string name="up_right_long">swipe up then long swipe right</string>
     <string name="up_down_long">Swipe up then long swipe down</string>
@@ -1395,8 +1466,8 @@
     <string name="use_proximity_false_touch_prevention_title">Prevent accidental touches</string>
     <string name="use_proximity_false_touch_prevention_only_lock_title">Prevent accidental touches on lock screen only</string>
     <string name="enbled_gesture_title">not enabled</string>
-    <string name="enabled_app_gesture">Enable as a Per-App gesture scheme</string>
-    <string name="enabled_gesture">Enable as a Global gesture scheme</string>
+    <string name="enabled_app_gesture">Enabled per app gesture scheme</string>
+    <string name="enabled_gesture">Enable gesture scheme</string>
     <string name="expand">Expand</string>
     <string name="fold">Collapse</string>
     <string name="decoding">Decode</string>
@@ -1562,289 +1633,6 @@
     <string name="use_window_title_changed_title">Speak window name</string>
     <string name="do_not_prompt_again">Do not show again</string>
     <string name="use_custom_language_title">Use custom translation</string>
-    <string name="msg_has_not_enabled">Jieshuo screen reader is not enabled yet. To utilize its features, you need to turn  it on through the accessibility settings. Would you like to navigate to the accessibility settings now?</string>
-    <string name="msg_has_not_enabled_33">If you are on Android 13 or above, you might see a security restriction message when you try  to enable Jieshuo\'s accessibility service. To allow Jieshuo to run, go to its app info, tap on more options, enable restricted settings, and confirm your choice</string>
-    <string name="use_edit_hint_title">Read aloud the input hints for text boxes</string>
-    <string name="check_manage_files_permissions_title">Check file management permission</string>
-    <string name="check_alarm_permissions_title">Check alarm and reminder permission</string>
-    <string name="setup_setting_file_permission_msg">Jieshuo screen reader uses file management permissions to save and use extensionss, sound effects, tools and to backup and restore settings.</string>
-    <string name="setup_setting_not_file_permission">File management permission not granted</string>
-    <string name="setup_setting_has_file_permission">Permission granted</string>
-    <string name="setup_setting_not_alarm_permission">Alarm clock and reminder permission not granted</string>
-    <string name="setup_setting_has_alarm_permission">Permission granted</string>
-    <string name="setup_setting_alarm_permission_msg">This permission is used for timer functionality and to allow the user to set scheduled tasks.</string>
-    <string name="use_volume_on_long_speak_title">When reading a long text, press the volume keys to adjust the speech volume</string>
-    <string name="message_title">Alert:</string>
-    <string name="msg_talkback_enabled">TalkBack is turned on. running both Jieshuo and TalkBack  at the same time may cause issues. Please turn off Talkback to restore browse by touch.</string>
-    <string name="cur_timer_speak_title">Preset timer announcement settings</string>
-    <string name="use_speak_uts">Elapsed time</string>
-    <string name="use_speak_rts">Remaining time</string>
-    <string name="use_speak_nts">Current time</string>
-    <string name="cur_timer_name">Name</string>
-    <string name="cur_timer_start_prompt">What to say when timer starts</string>
-    <string name="cur_timer_end_prompt">What to say when timer ends</string>
-    <string name="sound_power_connected">Charging started</string>
-    <string name="sound_power_disconnected">Charging stopped</string>
-    <string name="sound_power_full">Battery full</string>
-    <string name="sound_power_low">Battery low</string>
-    <string name="sound_scroll_top">scrolled to top</string>
-    <string name="sound_scroll_bottom">scrolled to bottom</string>
-    <string name="sound_raise_volume">Increase volume</string>
-    <string name="sound_lower_volume">Decrease volume</string>
-    <string name="sound_copy">Copy</string>
-    <string name="sound_paste">Paste</string>
-    <string name="sound_previous_text">Previous text</string>
-    <string name="sound_next_text">Next text</string>
-    <string name="sound_to_back">Go back</string>
-    <string name="sound_has_action">Actions available</string>
-    <string name="sound_has_link">Link</string>
-    <string name="sound_feedback_paused">Feedback paused</string>
-    <string name="sound_feedback_resume">Feedback resumed</string>
-    <string name="sound_auto_ocr_start">Automatic OCR</string>
-    <string name="sound_camera_screenshot">take a screenshot</string>
-    <string name="stream_type_ring">Ringtone</string>
-    <string name="stream_type_music">Media</string>
-    <string name="stream_type_alarm">Alarm</string>
-    <string name="stream_type_notification">Notification</string>
-    <string name="stream_type_accessibility">Accessibility</string>
-    <string name="move">Move</string>
-    <string name="msg_move_start">Focus the item that you want to move to, then double tap to complete the move</string>
-    <string name="msg_move_done">Moved to %d</string>
-    <string name="timer_tts_setting_title">Time announcement TTS settings</string>
-    <string name="other_res">Other resources</string>
-    <string name="language_title">Custom translations</string>
-    <string name="msg_download_error">Download error</string>
-    <string name="buy_with_alipay">Buy with AliPay</string>
-    <string name="buy_with_unipay">使用银行卡跨境汇款购买会员（使用人民币支付，享受等同中国用户人民币付款优惠）</string>
-    <string name="buy_with_paypal">Buy with PayPal</string>
-    <string name="msg_change_custom_gesture">You cannot modify the default gestures scheme. Do you want to switch to the custom gestures scheme?</string>
-    <string name="msg_import_strings">Importing this custom translation will either merge your changes with the imported version or overwrite them entirely. Before importing, you may export your current changes. What would you like to do</string>
-    <string name="browser">Browse</string>
-    <string name="stop">Stop</string>
-    <string name="read_next_chapter">Next chapter</string>
-    <string name="read_previous_chapter">Previous chapter</string>
-    <string name="read_history">History</string>
-    <string name="clear_history">Clear history</string>
-    <string name="web_back">Back</string>
-    <string name="web_reload">Refresh</string>
-    <string name="web_forward">Forward</string>
-    <string name="web_enter_url">Enter web address</string>
-    <string name="web_copy_url">Copy link</string>
-    <string name="web_are_you_open">Do you want to open this link?</string>
-    <string name="web_download_info">Type: %s\n size: %s</string>
-    <string name="web_direct_download">Download</string>
-    <string name="web_download_only_wifi">Download over Wi-Fi only</string>
-    <string name="merge">Merge</string>
-    <string name="overlay">Overwrite</string>
-    <string name="msg_has_enabled">Please turn on Jieshuo first</string>
-    <string name="msg_read_done">Loading completed</string>
-    <string name="are_you_delete_all_logs">Are you sure you want to delete all logs?</string>
-    <string name="msg_speech_error_audio">Audio problem</string>
-    <string name="msg_speech_error_speech_timeout">Timed out</string>
-    <string name="msg_speech_error_client">Other client error</string>
-    <string name="msg_speech_error_permissions">Permissions not granted</string>
-    <string name="msg_speech_error_network">Connection problem</string>
-    <string name="msg_speech_error_busy">engine busy</string>
-    <string name="msg_speech_error_server">Server error</string>
-    <string name="msg_speech_error_network_timeout">Network connection timed out</string>
-    <string name="msg_use_custom_node_name">Inorder for your edits to take effect, custom  node aliases option must be enabled. Do you want to enable it now?</string>
-    <string name="msg_use_custom_dict_speak">inorder for your edits to take effect, the use of custom dictionary must be enabled. Do you want to enable it now?</string>
-    <string name="msg_continuous_recognition">The continuous recognition function can automatically recognize the text on the screen after clicking or scrolling.</string>
-    <string name="enter_progress">Input a value</string>
-    <string name="msg_press_again_exit">Press again to exit</string>
-    <string name="msg_set_text_to_speech_listener">This extension requests to monitor your speech synthesis status. Do you want to allow it?</string>
-    <string name="msg_remove_text_to_speech_listener">Monitoring of text-to-speech synthesis stopped</string>
-    <string name="msg_set_speech_recognition_listener">This extension requests to monitor your speech recognition status. Do you want to allow it?</string>
-    <string name="msg_remove_speech_recognition_listener">Speech recognition monitoring service stopped</string>
-    <string name="timer_start">Start now</string>
-    <string name="trans_error">Translation error</string>
-    <string name="incoming">incoming call </string>
-    <string name="net_2g_level">%s 2G signal %d bars</string>
-    <string name="net_4g_level">%s 4G signal %d bars</string>
-    <string name="net_3g_level">%s 3G signal %d bars</string>
-    <string name="net_5g_level">%s 5G signal %d bars</string>
-    <string name="wifi_level_5">WiFi signal full</string>
-    <string name="wifi_level_4">WiFi signal 4 bars</string>
-    <string name="wifi_level_3">WiFi signal 3 bars</string>
-    <string name="wifi_level_2">WiFi signal 2 bars</string>
-    <string name="wifi_level_1">WiFi signal 1 bar</string>
-    <string name="timer_rts">Remaining time</string>
-    <string name="timer_pause_and_now_time">timer paused at %s, it is now %s</string>
-    <string name="battery_charging">charging</string>
-    <string name="use_action_menu_show_cursor_title">Show actions in the functions menu</string>
-    <string name="default_gesture_setting_title">Gestures default settings</string>
-    <string name="default_gesture_setting_summary">Manage settings related to gesture default behaviors and options</string>
-    <string name="use_action_menu_show_ext_title">Show additional dynamic focus related options in the functions menu</string>
-    <string name="find_next">Next result</string>
-    <string name="find_previous">Previous result</string>
-    <string name="command_virtual_keyboard">Virtual keyboard</string>
-    <string name="command_media_fast_forward">Fast forward</string>
-    <string name="command_media_rewind">Rewind</string>
-    <string name="command_selection_mode">Selection mode</string>
-    <string name="timer_format_title">Time reading format</string>
-    <string name="timer_format_def">System default</string>
-    <string name="timer_format_12">12-hour format</string>
-    <string name="timer_format_24">24-hour format</string>
-    <string name="default_gesture_type_title">Default navigation gestures style</string>
-    <string name="default_gesture_type_def_up_down">Default:
-Swipe down/up to move the focus, and right/left to perform shortcut gestures</string>
-    <string name="default_gesture_type_web_up_down">WebView Basic Granularity Navigation:
-Swipe right/left to switch navigation type in WebViews, and down/up to move within the selected type</string>
-    <string name="default_gesture_type_web_up_down_new">WebView Alternative Granularity Navigation:
-Swipe down then up or up then down to switch navigation type in WebViews, and swipe right/left to move within the selected type. Use down/up swipes to move focus</string>
-    <string name="default_gesture_type_view_up_down">Global Basic Granularity Navigation:
-Swipe right/left to switch navigation type in all views, and down((/up to move within the selected type</string>
-    <string name="default_gesture_type_view_up_down_new">Global Alternative Granularity Navigation:
-Swipe down then up or up then down to switch navigation type in all views, Swipe right/left to move within the selected type. Use up/down swipes to move focus</string>
-    <string name="default_gesture_type_def_left_right">Default2:
-Swipe rightt/leftt to move the focus, and down/up to perform shortcut gestures</string>
-    <string name="default_gesture_type_web_left_right">WebView Basic Granularity Navigation2:
-Swipe down/up to switch navigation type in WebViews, and right/left to move within the selected type</string>
-    <string name="default_gesture_type_web_left_right_new">WebView Alternative Granularity Navigation2:
-Swipe down then up or up then down to switch navigation type, and swipe down/up to move within the selected type. Use right/left swipes to move focus.</string>
-    <string name="default_gesture_type_view_left_right">Global Basic Granularity Navigation2:
-Swipe down/up to switch between navigation types in all views, and swipe right/left to move within the selected type</string>
-    <string name="default_gesture_type_view_left_right_new">Global Alternative Granularity Navigation2:
-Swipe down then up or up then down to switch navigation type in all views, and swipe down/up to move within the selected type. Use right/left swipes to move the focus</string>
-    <string name="use_speak_state_title">Read the state of the focused item first</string>
-    <string name="alarm_hours_title">Active hours</string>
-    <string name="notification_in_call_no_speak_title">Do not read notifications automatically during calls</string>
-    <string name="notification_in_auto_read_no_speak_title">Do not read notifications automatically when Reading mode or Automatic Browsing is used</string>
-    <string name="timer_action_def_title">Default action for Timer function</string>
-    <string name="timer_action_def_summary">This setting is only valid when there are preset timers created.</string>
-    <string name="timer_item_formater">%s. %d hours, %d minutes. Label: %s</string>
-    <string name="use_ocr_auto_speak_title">Automatically read the recognized text when using the Virtual Screen or the current screen recognition.</string>
-    <string name="use_new_text_move_type_title">Use the new text navigation and selection</string>
-    <string name="use_move_text_gesture_title">Use shortcut gestures to move the cursor in text boxes</string>
-    <string name="use_answer_phone_calls_incall_gesture_title">Use shortcut gestures to answer and end calls on the incoming call screen</string>
-    <string name="use_scroll_seek_gesture_title">Use shortcut gestures to adjust sliders</string>
-    <string name="use_scroll_list_gesture_title">Use shortcut gestures to scroll in lists</string>
-    <string name="use_click_dialog_gesture_title">Use shortcut gestures to click the OK/Cancel button in dialog boxes</string>
-    <string name="use_click_button_gesture_title">Use shortcut gestures to activate matching onscreen controls</string>
-    <string name="export_all_file">Export all</string>
-    <string name="share_all">Share all</string>
-    <string name="command_image_to_text">Describe currently focused item</string>
-    <string name="incall_tts_setting_title">Caller info TTS settings</string>
-    <string name="reader_tts_setting_title">Reading mode TTS settings</string>
-    <string name="char_mode_tts_setting_title">Character by Character Browsing mode TTS  settings</string>
-    <string name="auto_read_tts_setting_title">Automatic Browsing TTS settings</string>
-    <string name="notification_tts_setting_title">Notification reading TTS settings </string>
-    <string name="use_up_tap_prompt_title">Lift to activate timeout prompt</string>
-    <string name="double_fling_time_title">Multi-part gestures recognition duration</string>
-    <string name="jieshuo_beta_title">Beta versions</string>
-    <string name="picture_description">Detailed description of focused item</string>
-    <string name="auto_list_tts_setting_title">Chat messages auto-reading TTS settings</string>
-    <string name="more_tts_setting_title">Scenario-adaptive TTS configurations</string>
-    <string name="ocr_lang_zh">Mixed Chinese and English</string>
-    <string name="ocr_lang_zh_rare">Traditional and Simplified Chinese</string>
-    <string name="ocr_lang_auto">Automatic</string>
-    <string name="ocr_lang_mix">Mixed languages</string>
-    <string name="ocr_lang_jap">Japanese</string>
-    <string name="ocr_lang_kor">Korean</string>
-    <string name="ocr_lang_spa">Spanish</string>
-    <string name="ocr_lang_fre">French</string>
-    <string name="ocr_lang_ger">German</string>
-    <string name="ocr_lang_por">Portuguese</string>
-    <string name="ocr_lang_vie">Vietnamese</string>
-    <string name="ocr_lang_may">Malay</string>
-    <string name="ocr_lang_rus">Russian</string>
-    <string name="ocr_lang_ita">Italian</string>
-    <string name="ocr_lang_hol">Dutch</string>
-    <string name="ocr_lang_swe">Swedish</string>
-    <string name="ocr_lang_fin">Finnish</string>
-    <string name="ocr_lang_dan">Danish</string>
-    <string name="ocr_lang_nor">Norwegian</string>
-    <string name="ocr_lang_hun">Hungarian</string>
-    <string name="ocr_lang_tha">Thai</string>
-    <string name="ocr_lang_hi">Hindi</string>
-    <string name="ocr_lang_ara">Arabic</string>
-    <string name="use_virtual_screen_dim_background_title">Use a dark background for the Virtual Screen</string>
-    <string name="edit_ocr_lua_title">Edit custom OCR extensions</string>
-    <string name="ocr_lua_template"><![CDATA[require \"import\"\nimport \"com.nirenr.talkman.ai.*\"\n--例子代码是帮助理解代码的伪代码，不能直接运行\nbs,listener=...--获取参数\ntask(function(bs)\n  function 识别函数(bs)\n    --虚拟构成识别结果\n    return {\n      length=2,\n      {\n        t=\"例子代码是帮助理解代码的伪代码\",\n        x=0,\n        y=300,\n        w=1000,\n        h=100,\n        s=50\n      },\n      {\n        t=\"不能直接运行\",\n        x=0,\n        y=600,\n        w=800,\n        h=100,\n        s=50\n      }\n    }\n  end\n\n  local ret=识别函数(bs)\n  local rets=OcrResult.OcrItem[ret.length]--构建返回值数组\n  for n=1,ret.length do\n    --注意java与lua数组开始索引不同\n    rets[n-1]=OcrResult.OcrItem(\n    ret[n].t,--文字内容\n    ret[n].x,--文字x坐标，距离屏幕左侧距离\n    ret[n].y,--文字y坐标，距离屏幕顶部距离\n    ret[n].w,--文字区域宽度\n    ret[n].h,--文字区域高度\n    ret[n].s--文字高度\n    )\n  end\n  return OcrResult(rets)--返回结果到主线程\nend,\nbs,--将图片的byte数组传入线程\nfunction(rets)\n  listener.onDone(rets)--在回调函数调用onDone通知读屏识别完成\nend)]]></string>
-    <string name="accessibility_service_description2">解说辅助服务和主服务功能完全相同，主要用于部分会检测读屏服务名的场景，两个服务不需要同时开启。</string>
-    <string name="resume_on_screen_on_title">Resume browse by touch or speech feedback and browse by touch when the screen is turned on</string>
-    <string name="resume_on_notification_show_title">Resume browse by touch or speech feedback and browse by touch when opening the notification bar with a 1-finger down swipe from the top of the screen</string>
-    <string name="resume_on_ringing_title">Resume browse by touch or speech feedback and browse by touch when a call is received</string>
-    <string name="helper_supper_cmd_title">Super voice commands</string>
-    <string name="back_break_auto_mode_title">Use the back gesture (1-finger right then left swipe) to interrupt the automatic browsing function</string>
-    <string name="msg_export_all_file">This will export all Jieshuo settings and files to %s to be imported on a new phone. Please avoid sharing the exported archive with others because it contains your own data, including your login info.</string>
-    <string name="msg_export_all_file_fail">Failed to export. Please try again</string>
-    <string name="import_all_title">Import a complete backup?</string>
-    <string name="msg_import_all">This operation will overwrite your Jieshuo settings and resources</string>
-    <string name="app_service2">Jieshuo helper service</string>
-    <string name="app_no_supper_sound_package_title">Applications where Additional Sound Effects are not used
-(Additional Sound Effects will be temporarily disabled in the selected applications)</string>
-    <string name="command_image_to_text2">Describe entire screen</string>
-    <string name="picture_description2">Detailed description of entire screen</string>
-    <string name="use_split_line_title">Report line and paragraph numbers in Granular Editing Mode</string>
-    <string name="msg_use_single_tts_enabled">Single TTS engine option is enabled</string>
-    <string name="msg_disable_use_single_tts">You must disable the "Use a single TTS engine" option to use a %s. Do you want to proceed?</string>
-    <string name="command_auto_list_speak">Automatically read chat messages</string>
-    <string name="command_auto_list_speak_history">Automatic chat messages history</string>
-    <string name="msg_start_auto_list">Automatic message reading has started for %s </string>
-    <string name="msg_stop_auto_list">Automatic message reading has been stopped for %s </string>
-    <string name="msg_username_typo">Username or password format is incorrect</string>
-    <string name="msg_username_error">Wrong username or password</string>
-    <string name="msg_invite_code_error">The invitation code is incorrect</string>
-    <string name="msg_username_used">This username is already in use</string>
-    <string name="msg_network_error">Connection error</string>
-    <string name="command_verification12">Slider verification</string>
-    <string name="command_recognition_edu">Exam recognition</string>
-    <string name="use_input_method_speak_word_title">Speak example words for letters while typing</string>
-    <string name="trans_lua_engine_title">Use a custom translation engine</string>
-    <string name="edit_trans_lua_title">Edit custom translation engine</string>
-    <string name="trans_lua_template"><![CDATA[" require \"import\" \n import \"java.util.Locale\"\n local form,to,text,ltr=...\n local url=string.format(\"https://translate.google.com/m?sl=%s&tl=%s&hl=%s&q=%s\",from,to,Locale.getDefault().getCountry(),text)\n Http.get(url,function(code,text)\n   ltr.onTransResult(text:match(\"<[^<>]*\\\"result%-container\\\">([^<>]*)</div>\"))\n   end)"]]></string>
-    <string name="match_all">Exact text match</string>
-    <string name="match_start">Beginning of text match</string>
-    <string name="match_end">End of text match</string>
-    <string name="match_contains">Unrestricted match</string>
-    <string name="today">Today</string>
-    <string name="yesterday">Yesterday</string>
-    <string name="before_yesterday">The day before yesterday</string>
-    <string name="command_accept_call">Answer call</string>
-    <string name="command_end_call">End call</string>
-    <string name="command_pause_a11y_volume">Suspend the use of accessibility volume</string>
-    <string name="msg_supper_cmd_only_voice_helper">Super voice commands can only be called in voice assistant</string>
-    <string name="msg_no_a11y_volume">You are not using accessibility volume</string>
-    <string name="msg_a11y_volume_disabled">Using media volume</string>
-    <string name="msg_a11y_volume_enabled">Using accessibility volume</string>
-    <string name="content_blacklist_description">The content added to the blacklist will not be read during browsing. This might help in filtering out unwanted content or buttons that are not labeled properly. 
-Keywords can be added with asterisks to implement simple matching patterns:
-• Keyword* filters content starting with the keyword.
-• *Keyword filters content ending with the keyword.
-• *keyword* filters content containing the keyword.
-• No asterisks indicate exact matching.</string>
-    <string name="auto_speak_blacklist_description">The content added to the blacklist will not be automatically spoken. This is used to filter out content that you do not want to be read during automatic message reading.
-Keywords can be added with asterisks to implement simple matching patterns:
-• Keyword* filters content starting with the keyword.
-• *Keyword filters content ending with the keyword.
-• *Keyword* filters content containing the keyword.
-• No asterisks indicate exact matching.</string>
-    <string name="notification_black_list_description">Notifications containing blacklisted text will not be read automatically, but they will still be recorded in the notification box. 
-Regular expressions are supported. 
-If only one asterisk is added, all notifications from the application will not be announced automatically.</string>
-    <string name="notification_white_list_description">Notifications containing whitelisted text will always be read automatically even if notification reading is disabled. 
-Regular expressions are supported.
-If only one asterisk is added all notifications from the application will be read automatically.</string>
-    <string name="nodeinfo_long_clickable">Can be long pressed</string>
-    <string name="nodeinfo_not_long_click">Cannot be long pressed</string>
-    <string name="nodeinfo_editable">Editable</string>
-    <string name="nodeinfo_not_edit">Not editable</string>
-    <string name="sound_scroll_page">Scroll page</string>
-    <string name="use_auto_mode_move_list_view_item_title">Skip reading item-related controls in Automatic Browsing mode</string>
-    <string name="helper_tts_setting_title">Voice Assistant responses TTS settings</string>
-    <string name="node_tts_setting_title">Focus monitoring TTS settings</string>
-    <string name="voice_helper_use_big_title">Send prompts to the AI chatbot</string>
-    <string name="chat_history">Chat history</string>
-    <string name="command_recognition_icon">Recognize the focused icon</string>
-    <string name="command_long_hold">Long press and hold</string>
-    <string name="sound_progress">Progress indicator</string>
-    <string name="sound_progress_100">100 percent progress</string>
-    <string name="sound_clear_notification">Clear all notifications</string>
-    <string name="sound_talkman_start">Jieshuo turned on</string>
-    <string name="sound_talkman_stop">Jieshuo turned off</string>
-    <string name="sound_camera">Camera shutter</string>
-    <string name="voice_picture_description">Inquire by voice about current focus</string>
-    <string name="voice_picture_description2">Inquire by Voice About the Entire Screen</string>
+>>>>>>> Vietnamese-translate
 
 </resources>
