@@ -1,0 +1,910 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="right_menu_items">
+        <item>@string/command_click</item>
+        <item>@string/command_long_click</item>
+        <item>@string/command_start</item>
+        <item>@string/command_end</item>
+        <item>@string/command_copy</item>
+        <item>@string/command_append_copy</item>
+        <item>@string/command_paste</item>
+        <item>@string/clipboard_menu_title</item>
+        <item>@string/favorites_menu_title</item>
+        <item>@string/split_edit_title</item>
+        <item>@string/command_long_copy</item>
+        <item>@string/command_trans</item>
+        <item>@string/command_verification2</item>
+        <item>@string/command_timer_mode</item>
+        <item>@string/cancel</item>
+    </string-array>
+    <string-array name="left_menu_items">
+        <item>@string/command_auto_next</item>
+        <item>@string/command_read_mode</item>
+        <item>@string/list_mode_title</item>
+        <item>@string/split_menu_title</item>
+        <item>@string/command_verbatim_speak2</item>
+        <item>@string/command_all_speak</item>
+        <item>@string/command_all_select</item>
+        <item>@string/command_ocr_text</item>
+        <item>@string/plugin_title</item>
+        <item>@string/command_notification_box</item>
+        <item>@string/command_to_notifications</item>
+        <item>@string/command_long_edit</item>
+        <item>@string/command_gestures_edit</item>
+        <item>@string/command_virtual_screen</item>
+        <item>@string/cancel</item>
+    </string-array>
+    <string-array name="action_menu_items">
+        <item>@string/command_clean</item>
+        <item>@string/command_select</item>
+        <item>@string/command_copy</item>
+        <item>@string/command_append_copy</item>
+        <item>@string/command_paste</item>
+        <item>@string/clipboard_menu_title</item>
+        <item>@string/favorites_menu_title</item>
+        <item>@string/split_edit_title</item>
+        <item>@string/command_long_copy</item>
+        <item>Open keyboard</item>
+
+    </string-array>
+    <string-array name="menu_def_items">
+        <item>@string/split_menu_title</item>
+        <item>@string/list_mode_title</item>
+        <item>@string/command_all_speak</item>
+        <item>@string/command_voice_helper</item>
+        <item>@string/plugin_title</item>
+        <item>@string/main_setting</item>
+        <item>@string/command_disable_feedback</item>
+    </string-array>
+    <string-array name="menu_items">
+        <item>@string/action_menu_title</item>
+        <item>@string/advanced_menu_title</item>
+        <item>@string/command_auto_next</item>
+        <item>@string/command_read_mode</item>
+        <item>@string/list_mode_title</item>
+        <item>@string/command_node_mode</item>
+        <item>@string/split_menu_title</item>
+        <item>@string/command_verbatim_speak2</item>
+        <item>@string/command_all_speak</item>
+        <item>@string/all_text_title</item>
+        <item>@string/command_all_select</item>
+        <item>@string/command_voice_helper</item>
+        <item>@string/command_ocr_text</item>
+        <item>@string/camera_title</item>
+        <item>@string/plugin_title</item>
+        <item>@string/tool_title</item>
+        <item>@string/main_setting</item>
+        <item>@string/command_disable_touch</item>
+        <item>@string/command_disable_feedback</item>
+        <item>@string/command_notification_box</item>
+        <item>@string/command_to_notifications</item>
+        <item>@string/command_long_edit</item>
+        <item>@string/command_gestures_edit</item>
+        <item>@string/command_enable_dim_screen</item>
+        <item>@string/command_virtual_screen</item>
+        <item>@string/command_quick_mode</item>
+        <item>@string/command_supper_mode</item>
+        <item>@string/command_virtual_navigation</item>
+    </string-array>
+    <string-array name="left_button">
+        <item>Læg på</item>
+        <item>Afslut</item>
+        <item>*Stryg til venstre for at afbryde*</item>
+        <item>Afslut opkald</item>
+        <item>Hang up</item>
+        <item>Slut opkald</item>
+        <item>结束QQ通话</item>
+        <item>结束QQ电话</item>
+        <item>Forrige medie</item>
+        <item>Forrige spor</item>
+        <item>Gå tilbage</item>
+    </string-array>
+    <string-array name="right_button">
+        <item>Besvar</item>
+        <item>*Stryg til højre for at besvare*</item>
+        <item>Højtaler</item>
+        <item>Besvar opkald</item>
+        <item>Næste medie</item>
+        <item>Næste spor</item>
+    </string-array>
+
+    <string-array name="voice_recognizer_values">
+        <item>3</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="voice_recognizer_entries">
+        <item>System stemme</item>
+        <item>Stemme 1</item>
+        <item>Stemme 2</item>
+        <item>Stemme 3</item>
+    </string-array>
+    <string-array name="tts_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+        <item>32</item>
+        <item>33</item>
+        <item>34</item>
+        <item>35</item>
+        <item>36</item>
+        <item>37</item>
+        <item>38</item>
+        <item>39</item>
+        <item>40</item>
+        <item>41</item>
+        <item>42</item>
+        <item>43</item>
+        <item>44</item>
+        <item>45</item>
+        <item>46</item>
+        <item>47</item>
+        <item>48</item>
+        <item>49</item>
+        <item>50</item>
+        <item>51</item>
+        <item>52</item>
+        <item>53</item>
+        <item>54</item>
+        <item>55</item>
+        <item>56</item>
+        <item>57</item>
+        <item>58</item>
+        <item>59</item>
+        <item>60</item>
+        <item>61</item>
+        <item>62</item>
+        <item>63</item>
+        <item>64</item>
+        <item>65</item>
+        <item>66</item>
+        <item>67</item>
+        <item>68</item>
+        <item>69</item>
+        <item>70</item>
+        <item>71</item>
+        <item>72</item>
+        <item>73</item>
+        <item>74</item>
+        <item>75</item>
+        <item>76</item>
+        <item>77</item>
+        <item>78</item>
+        <item>79</item>
+        <item>80</item>
+        <item>81</item>
+        <item>82</item>
+        <item>83</item>
+        <item>84</item>
+        <item>85</item>
+        <item>86</item>
+        <item>87</item>
+        <item>88</item>
+        <item>89</item>
+        <item>90</item>
+        <item>91</item>
+        <item>92</item>
+        <item>93</item>
+        <item>94</item>
+        <item>95</item>
+        <item>96</item>
+        <item>97</item>
+        <item>98</item>
+        <item>99</item>
+        <item>100</item>
+    </string-array>
+    <!--string-array name="tts_speaker_title">
+        <item>Kvindlig stemme</item>
+        <item>Mandlig stemme</item>
+        <item>Du Xiao Yao</item>
+        <item>Du Ya Ya</item>
+    </string-array>
+    <string-array name="tts_speaker">
+        <item>0</item>
+        <item>1</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array-->
+    <string-array name="vibrate_intensity_entries">
+        <item>Svag</item>
+        <item>Mellem</item>
+        <item>Stærk</item>
+        <item>Kraftig</item>
+    </string-array>
+    <string-array name="vibrate_intensity_values">
+        <item>12</item>
+        <item>32</item>
+        <item>48</item>
+        <item>64</item>
+    </string-array>
+    <string-array name="long_click_entries">
+        <item>Kort</item>
+        <item>Mellem</item>
+        <item>Lang</item>
+    </string-array>
+    <string-array name="long_click_values">
+        <item>500</item>
+        <item>750</item>
+        <item>1000</item>
+    </string-array>
+    <string-array name="edge_gesture_width_entries">
+        <item>Lille</item>
+        <item>Mellem</item>
+        <item>Stor</item>
+        <item>Maksimal</item>
+    </string-array>
+    <string-array name="edge_gesture_width_values">
+        <item>8</item>
+        <item>12</item>
+        <item>16</item>
+        <item>20</item>
+    </string-array>
+    <string-array name="tts_speaker_entries">
+        <item>Xiao Yan</item>
+        <item>Xiao Feng</item>
+    </string-array>
+    <string-array name="tts_speaker_values">
+        <item>xiaoyan</item>
+        <item>xiaofeng</item>
+    </string-array>
+    <string-array name="advanced_menu_items">
+        <item>Oversæt nuværende element og kopier oversættelsen</item>
+        <item>scenebeskrivelse</item>
+        <item>Tekstgenkendelse</item>
+        <item>Ansigtsgenkendelse</item>
+        <item>Identificer CAPTCHA</item>
+        <item>Se genkendelsesresultater</item>
+        <item>Billedegenkendelse</item>
+        <item>Skyderbekræftigelse</item>
+        <item>Identificer eksamens opgaver og lignende</item>
+    </string-array>
+    <string-array name="lang_entries">
+        <item>Automatisk</item>
+        <item>Koreansk</item>
+        <item>Klassisk Kinesisk</item>
+        <item>Forenklet kinesisk</item>
+        <item>Hollandsk</item>
+        <item>Thailandsk</item>
+        <item>Græsk</item>
+        <item>Italiensk</item>
+        <item>Slovensk</item>
+        <item>Japansk</item>
+        <item>Engelsk</item>
+        <item>Arabisk</item>
+        <item>Kantonesisk kinesisk</item>
+        <item>Ungarsk</item>
+        <item>Estisk</item>
+        <item>rumænsk</item>
+        <item>Kinesisk</item>
+        <item>Tjekkisk</item>
+        <item>Tysk</item>
+        <item>Fransk</item>
+        <item>Finsk</item>
+        <item>Portugisisk</item>
+        <item>Dansk</item>
+        <item>Russisk</item>
+        <item>Bulgarsk</item>
+        <item>Spansk</item>
+        <item>Svensk</item>
+        <item>Polsk</item>
+        <item>Vietnamesisk</item>
+
+        <item>Irsk</item>
+        <item>Orkis</item>
+        <item>Albansk</item>
+        <item>Akan</item>
+        <item>Aragonsk</item>
+        <item>Amharisk</item>
+        <item>Assamesisk</item>
+        <item>Aymara</item>
+        <item>Aserbajdsjansk</item>
+        <item>Asterisk</item>
+        <item>Ossetisk</item>
+        <item>Ojibwa</item>
+        <item>Orion</item>
+        <item>Oromo</item>
+        <item>Persisk</item>
+        <item>Bretonsk</item>
+        <item>Baskirisjk</item>
+        <item>Baskisk</item>
+        <item>Brasiliansk portugisisk</item>
+        <item>Hviderussisk</item>
+        <item>Berbisk</item>
+        <item>Filippinsk</item>
+        <item>Samisk</item>
+        <item>Sotho</item>
+        <item>Bemba</item>
+        <item>Birim</item>
+        <item>Bislama</item>
+        <item>Baluchistan</item>
+        <item>Islandsk</item>
+        <item>Bosnisk</item>
+        <item>Bhojpuri</item>
+        <item>Chuvash</item>
+        <item>Conga</item>
+        <item>Tatarisk</item>
+        <item>Shan</item>
+        <item>Detun</item>
+        <item>Dhivehi</item>
+        <item>Plattysk</item>
+        <item>Filipino</item>
+        <item>Sanskrit</item>
+        <item>Friulisk</item>
+        <item>Fulani</item>
+        <item>Færøsk</item>
+        <item>Gælisk</item>
+        <item>Congo</item>
+        <item>Sorbian</item>
+        <item>Khmer</item>
+        <item>Grønlandsk</item>
+        <item>Georgisk</item>
+        <item>Gujarati</item>
+        <item>Oldgræsk</item>
+        <item>Angelsaksisk (oldengelsk)</item>
+        <item>Guaraní</item>
+        <item>Hupa</item>
+        <item>Hakachin</item>
+        <item>Haitiansk</item>
+        <item>Hausa</item>
+        <item>Montenegrinsk</item>
+        <item>Kirgisisk</item>
+        <item>Galicisk</item>
+        <item>Canadisk fransk</item>
+        <item>Catalansk</item>
+        <item>Kabairian</item>
+        <item>Canadisk</item>
+        <item>Kanuri</item>
+        <item>Kasjubisk</item>
+        <item>Kangwar</item>
+        <item>Corsa</item>
+        <item>Korsikansk</item>
+        <item>Creek</item>
+        <item>Krimtatarisk</item>
+        <item>Klingon</item>
+        <item>Kroatisk</item>
+        <item>Kechuan</item>
+        <item>Kashmirisk</item>
+        <item>Konkani</item>
+        <item>Kurdisk</item>
+        <item>Latinsk</item>
+        <item>Lao</item>
+        <item>Latgalai</item>
+        <item>Lettisk</item>
+        <item>Limburgish</item>
+        <item>Lingala</item>
+        <item>Luganda</item>
+        <item>Luxembourgsk</item>
+        <item>Lushanian</item>
+        <item>Rwandan</item>
+        <item>Litauisk</item>
+        <item>Rætoromansk</item>
+        <item>Romani</item>
+        <item>Logic</item>
+        <item>Malajisk</item>
+        <item>Burmesisk</item>
+        <item>Marathi</item>
+        <item>Malagassisk</item>
+        <item>Malayalam</item>
+        <item>Makedonsk</item>
+        <item>Marshallesisk</item>
+        <item>Maitili</item>
+        <item>Manx</item>
+        <item>Mauritisk kreolsk</item>
+        <item>Maori</item>
+        <item>Bengali</item>
+        <item>Maltesisk</item>
+        <item>Hmong</item>
+        <item>Norsk</item>
+        <item>Napolitansk</item>
+        <item>Ndebele</item>
+        <item>Afrikaans</item>
+        <item>Sotho</item>
+        <item>Nepalesisk</item>
+        <item>Punjabi</item>
+        <item>Papi Amento</item>
+        <item>Pashto</item>
+        <item>Chichewa</item>
+        <item>Chivean</item>
+        <item>Cherokee</item>
+        <item>Sardisk</item>
+        <item>Samoansk</item>
+        <item>Serbokroatisk</item>
+        <item>Serbisk</item>
+        <item>Sanghainese</item>
+        <item>Singalesisk</item>
+        <item>Asperanto</item>
+        <item>Skriftlig norsk</item>
+        <item>Slovakisk</item>
+        <item>Kiswahili</item>
+        <item>Somali</item>
+        <item>Serbisk (Cyrillic)</item>
+        <item>Tyrkisk</item>
+        <item>Tadsjikisk</item>
+        <item>Tamil</item>
+        <item>Tagalog</item>
+        <item>Tigrinsk</item>
+        <item>Telugu</item>
+        <item>Tunisisk Arabisk</item>
+        <item>Turkmensk</item>
+        <item>Ukrainsk</item>
+        <item>Walloon</item>
+        <item>Walisisk</item>
+        <item>Vinda</item>
+        <item>Volovian</item>
+        <item>Urdu</item>
+        <item>Hebraisk</item>
+        <item>Sepharic</item>
+        <item>Cilician</item>
+        <item>Hiligaynon</item>
+        <item>Neder Sorbisk</item>
+        <item>Hawaiiansk</item>
+        <item>Nynorsk</item>
+        <item>Skriftlig vest afrikansk</item>
+        <item>Sindhi</item>
+        <item>Shona</item>
+        <item>Cebuano</item>
+        <item>Syrisk</item>
+        <item>Sundanesisk</item>
+        <item>Hindi</item>
+        <item>Indonesisk</item>
+        <item>Yiddish</item>
+        <item>Inte</item>
+        <item>Azeri</item>
+        <item>Ingush</item>
+        <item>Igbo</item>
+        <item>Ido</item>
+        <item>Yoruba</item>
+        <item>Armensk</item>
+        <item>Inuktitut (inuit)</item>
+        <item>Iransk</item>
+        <item>Zazaqi</item>
+        <item>Medieval French</item>
+        <item>Zulu</item>
+        <item>Javanesisk</item>
+
+        <item>Oriya</item>
+        <item>Frisisk</item>
+        <item>Kasakhisk</item>
+        <item>Haitisk kreol</item>
+        <item>Madagaskisk</item>
+        <item>Mongolsk</item>
+        <item>Sesotho</item>
+        <item>Uigh</item>
+        <item>Usbekisk</item>
+
+    </string-array>
+    <string-array name="lang_values">
+        <item>Automatisk</item>
+        <item>kor</item>
+        <item>wyw</item>
+        <item>cht</item>
+        <item>nl</item>
+        <item>th</item>
+        <item>el</item>
+        <item>it</item>
+        <item>slo</item>
+        <item>jp</item>
+        <item>en</item>
+        <item>ara</item>
+        <item>yue</item>
+        <item>hu</item>
+        <item>est</item>
+        <item>rom</item>
+        <item>zh</item>
+        <item>cs</item>
+        <item>de</item>
+        <item>fra</item>
+        <item>fin</item>
+        <item>pt</item>
+        <item>dk</item>
+        <item>ru</item>
+        <item>bul</item>
+        <item>spa</item>
+        <item>swe</item>
+        <item>pl</item>
+        <item>vie</item>
+
+        <item>gle</item>
+        <item>oci</item>
+        <item>alb</item>
+        <item>aka</item>
+        <item>arg</item>
+        <item>amh</item>
+        <item>asm</item>
+        <item>aym</item>
+        <item>aze</item>
+        <item>ast</item>
+        <item>oss</item>
+        <item>oji</item>
+        <item>ori</item>
+        <item>orm</item>
+        <item>per</item>
+        <item>bre</item>
+        <item>bak</item>
+        <item>baq</item>
+        <item>pot</item>
+        <item>bel</item>
+        <item>ber</item>
+        <item>pam</item>
+        <item>sme</item>
+        <item>ped</item>
+        <item>bem</item>
+        <item>bli</item>
+        <item>bis</item>
+        <item>bal</item>
+        <item>ice</item>
+        <item>bos</item>
+        <item>bho</item>
+        <item>chv</item>
+        <item>tso</item>
+        <item>tat</item>
+        <item>sha</item>
+        <item>tet</item>
+        <item>div</item>
+        <item>log</item>
+        <item>fil</item>
+        <item>san</item>
+        <item>fri</item>
+        <item>ful</item>
+        <item>fao</item>
+        <item>gla</item>
+        <item>kon</item>
+        <item>ups</item>
+        <item>hkm</item>
+        <item>kal</item>
+        <item>geo</item>
+        <item>guj</item>
+        <item>gra</item>
+        <item>eno</item>
+        <item>grn</item>
+        <item>hup</item>
+        <item>hak</item>
+        <item>ht</item>
+        <item>hau</item>
+        <item>mot</item>
+        <item>kir</item>
+        <item>glg</item>
+        <item>frn</item>
+        <item>cat</item>
+        <item>kab</item>
+        <item>kan</item>
+        <item>kau</item>
+        <item>kah</item>
+        <item>cor</item>
+        <item>xho</item>
+        <item>cos</item>
+        <item>cre</item>
+        <item>cri</item>
+        <item>kli</item>
+        <item>hrv</item>
+        <item>que</item>
+        <item>kas</item>
+        <item>kok</item>
+        <item>kur</item>
+        <item>lat</item>
+        <item>lao</item>
+        <item>lag</item>
+        <item>lav</item>
+        <item>lim</item>
+        <item>lin</item>
+        <item>lug</item>
+        <item>ltz</item>
+        <item>ruy</item>
+        <item>kin</item>
+        <item>lit</item>
+        <item>roh</item>
+        <item>ro</item>
+        <item>loj</item>
+        <item>may</item>
+        <item>bur</item>
+        <item>mar</item>
+        <item>mg</item>
+        <item>mal</item>
+        <item>mac</item>
+        <item>mah</item>
+        <item>mai</item>
+        <item>glv</item>
+        <item>mau</item>
+        <item>mao</item>
+        <item>ben</item>
+        <item>mlt</item>
+        <item>hmn</item>
+        <item>nor</item>
+        <item>nea</item>
+        <item>nbl</item>
+        <item>afr</item>
+        <item>sot</item>
+        <item>nep</item>
+        <item>pan</item>
+        <item>pap</item>
+        <item>pus</item>
+        <item>nya</item>
+        <item>twi</item>
+        <item>chr</item>
+        <item>srd</item>
+        <item>sm</item>
+        <item>sec</item>
+        <item>srp</item>
+        <item>sol</item>
+        <item>sin</item>
+        <item>epo</item>
+        <item>nob</item>
+        <item>sk</item>
+        <item>swa</item>
+        <item>som</item>
+        <item>src</item>
+        <item>tr</item>
+        <item>tgk</item>
+        <item>tam</item>
+        <item>tgl</item>
+        <item>tir</item>
+        <item>tel</item>
+        <item>tua</item>
+        <item>tuk</item>
+        <item>ukr</item>
+        <item>wln</item>
+        <item>wel</item>
+        <item>ven</item>
+        <item>wol</item>
+        <item>urd</item>
+        <item>heb</item>
+        <item>fry</item>
+        <item>sil</item>
+        <item>hil</item>
+        <item>los</item>
+        <item>haw</item>
+        <item>nno</item>
+        <item>nqo</item>
+        <item>snd</item>
+        <item>sna</item>
+        <item>ceb</item>
+        <item>syr</item>
+        <item>sun</item>
+        <item>hi</item>
+        <item>id</item>
+        <item>yid</item>
+        <item>ina</item>
+        <item>ach</item>
+        <item>ing</item>
+        <item>ibo</item>
+        <item>ido</item>
+        <item>yor</item>
+        <item>arm</item>
+        <item>iku</item>
+        <item>ir</item>
+        <item>zaz</item>
+        <item>frm</item>
+        <item>zul</item>
+        <item>jav</item>
+
+        <item>or</item>
+        <item>fy</item>
+        <item>kk</item>
+        <item>ht</item>
+        <item>mg</item>
+        <item>mn</item>
+        <item>st</item>
+        <item>ug</item>
+        <item>uz</item>
+
+    </string-array>
+
+    <string-array name="tts_engine_values">
+        <item>system</item>
+        <item>unisound</item>
+        <item>baidu</item>
+    </string-array>
+    <string-array name="tts_engine_entries">
+        <item>System stemme</item>
+        <item>Uni sound</item>
+        <item>Baidu</item>
+    </string-array>
+    <string-array name="tts_engine_vip_values">
+        <item>system</item>
+        <item>iFLYTEK</item>
+        <item>uni sound</item>
+        <item>baidu</item>
+    </string-array>
+    <string-array name="tts_engine_vip_entries">
+        <item>System stemme</item>
+        <item>iFLYTEK</item>
+        <item>Uni sound</item>
+        <item>Baidu Cloud TTS-stemme</item>
+    </string-array>
+    <string-array name="alarm_interval_values">
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+    </string-array>
+    <string-array name="alarm_interval_entries">
+        <item>Hvert femte minut</item>
+        <item>Hvert tiende minut</item>
+        <item>Hvert kvarter</item>
+        <item>Hver halve time</item>
+        <item>Hver time</item>
+    </string-array>
+    <string-array name="timer_interval_values">
+        <item>1</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+    </string-array>
+    <string-array name="timer_interval_entries">
+        <item>1 minut</item>
+        <item>5 minutter</item>
+        <item>10 minutter</item>
+        <item>15 minutter</item>
+    </string-array>
+    <string-array name="alarm_hour_values">
+        <item>Midnat</item>
+        <item>Klokken 1</item>
+        <item>Klokken 2</item>
+        <item>Midt om natten</item>
+        <item>Klokken 4</item>
+        <item>Klokken 5</item>
+        <item>Morgen</item>
+        <item>Klokken 7</item>
+        <item>Klokken 8</item>
+        <item>Formiddag</item>
+        <item>Klokken 10</item>
+        <item>Klokken 11</item>
+        <item>Middag</item>
+        <item>Klokken 13</item>
+        <item>Klokken 14</item>
+        <item>Eftermiddag</item>
+        <item>Klokken 16</item>
+        <item>Klokken 17</item>
+        <item>Aften</item>
+        <item>Klokken 19</item>
+        <item>Klokken 20</item>
+        <item>Senaften</item>
+        <item>Klokken 22</item>
+        <item>Klokken 23</item>
+        <item>Midnat</item>
+    </string-array>
+    <string-array name="recognizer_lang_entries">
+        <item>Forenklet kinesisk</item>
+        <item>Kantonesisk kinesisk</item>
+        <item>Engelsk</item>
+    </string-array>
+    <string-array name="recognizer_lang_values">
+        <item>zh_CN</item>
+        <item>zh_GD</item>
+        <item>en_GB</item>
+    </string-array>
+    <string-array name="tts_scale_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="tts_scale_entries">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="web_type_title" >
+        <item>Standard</item>
+        <item>Overskrifter</item>
+        <item>Links</item>
+        <item>Knapper</item>
+
+        <item>Landmærker</item>
+        <item>Tekstfelter</item>
+        <item>Fokuselementer</item>
+        <item>Kontrolelementer</item>
+        <item>Billeder</item>
+        <item>Afkrydsningsfelter</item>
+        <item>Combo boxe</item>
+        <item>Informationer</item>
+        <item>Lister</item>
+        <item>Listepunkter</item>
+
+        <item>Rulning</item>
+        <item>Overblik</item>
+
+        <item>Tegn</item>
+        <item>Ord</item>
+        <item>Linjer</item>
+        <item>Sætninger</item>
+        <item>Sider</item>
+        <item>Kopieringsfunktion</item>
+        <item>Medielydstyrke</item>
+        <item>Talehastighed</item>
+        <item>OCR og oversætttelse</item>
+        <item>Skærmområder</item>
+
+    </string-array>
+
+    <string-array name="hot_key_help_items" >
+        <item>Ctrl + Piletast op: flyt fokusmarkøren til det forrige 	element.</item>
+        <item>Ctrl + Piletast ned: flyt fokusmarkkøren til det næste element.</item>
+        <item>Ctrl + Venstre piletast: venstre bevægelsesgenvej.</item>
+        <item>Ctrl + Højre piletast: højre bevægelsesgenvej.</item>
+        <item>Ctrl + Side op: rul en side op.</item>
+        <item>Ctrl + Side ned: rul en side ned.</item>
+        <item>Ctrl + H: hjem.</item>
+        <item>Ctrl + N: notifikationscenter.</item>
+        <item>Ctrl + P: seneste apps.</item>
+        <item>Ctrl + Mellemrum: aktivere fokuseret element.</item>
+        <item>Ctrl + L: tryk og hold på fokuseret element.</item>
+        <item>Ctrl + Q: kvikmenu.</item>
+
+        <item>Alt + M: Jieshuo menu.</item>
+        <item>Alt + A: funktionsmenu.</item>
+        <item>Alt + P: udvidelser.</item>
+        <item>Alt + T: Tilføjelsesprogrammer.</item>
+        <item>Alt + V: tale assistent.</item>
+        <item>Alt + S: tekstredigering.</item>
+        <item>Alt + L: listeopstilling.</item>
+
+    </string-array>
+    <string-array name="view_type_title" >
+        <item>Standard</item>
+        <item>Etiketter</item>
+        <item>Knapper</item>
+        <item>Tekstfelter</item>
+
+        <item>Billeder</item>
+        <item>Afkrydsningsfelter</item>
+        <item>Proceslinjer</item>
+        <item>Lister</item>
+        <item>Listepunkter</item>
+        <item>Fokuselementer</item>
+        <item>Elementer der kan trykkes</item>
+        <item>Notes</item>
+        <item>Rulning</item>
+        <item>Vertikalnavigering</item>
+
+        <item>Tegn</item>
+        <item>Ord</item>
+        <item>Linjer</item>
+        <item>Sætninger</item>
+        <item>Sider</item>
+        <item>Kopieringsfunktion</item>
+        <item>Medielydstyrke</item>
+        <item>Talehastighed</item>
+        <item>OCR og oversættelse</item>
+        <item>Skærmområder</item>
+
+    </string-array>
+
+
+
+</resources>

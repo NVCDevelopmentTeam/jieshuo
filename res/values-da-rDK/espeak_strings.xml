@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!--
+        Source: Activity title.
+        Description: Title for the Settings activity.
+    -->
+  <string name="tts_settings_label">eSpeak TTS</string>
+  <!--
+        Source: Preference title.
+        Description: Title for the preference that controls default voice pitch.
+    -->
+  <string name="setting_default_pitch">Tonehøjde</string>
+  <!--
+        Source: Preference title.
+        Description: Title for the preference that controls default speech rate.
+    -->
+  <string name="setting_default_rate">Talehastighed</string>
+  <!--
+        Source: Dialog text.
+        Description: Status message shown when installing voice data.
+    -->
+  <string name="installing_voice_data">Henter stemme, vent venligst…</string>
+  <!--
+        Source: Dialog message.
+        Description: Alert dialog prompting the user to set eSpeak as their default TTS engine.
+    -->
+  <string name="set_default_message">eSpeak er ikke valgt som din standard stemme.</string>
+  <!--
+        Source: Dialog message.
+        Description: Alert dialog telling the user that voice data installation failed.
+    -->
+  <string name="voice_data_failed_message">Fejl opstod under installering af eSpeak stemmen.</string>
+  <!--
+        Source: Dialog message.
+        Description: Alert dialog telling the user that an unknown error has occurred.
+    -->
+  <string name="error_message">Beklager, eSpeak kunne ikke starte.</string>
+  <!--
+        Source: Label text.
+        Description: Label informing the user of the current text-to-speech language.
+    -->
+  <string name="current_tts_locale">Standard stemme</string>
+  <!--
+        Source: Label text.
+        Description: Label informing the user of how many voices are installed.
+    -->
+  <string name="available_voices">Installerede stemmer</string>
+  <!--
+        Source: Button label.
+        Description: Button for launching eSpeak-specific settings.
+    -->
+  <string name="engine_settings">eSpeak stemmeindstillinger</string>
+  <!--
+        Source: Label text.
+        Description: Label informing the user that eSpeak is loading resources.
+    -->
+  <string name="loading">Indlæser... Vent venligst…</string>
+  <!--
+        Source: Spoken aloud.
+        Description: Sample text spoken aloud when the user is trying out a language.
+    -->
+  <string name="sample_text">Dette er et eksempel hvor eSpeak læser tekst op på %s. Kan du lide hvad du hører</string>
+  <string name="status">Status</string>
+  <string name="tts_version">eSpeak version</string>
+  <string name="speak">Afspil prøve</string>
+  <string name="ssml">Indlæs SSML Skabelon</string>
+  <string name="synthesis_demo">Indtast tekst der skal læses op:</string>
+  <string name="espeak_volume">Talelydstyrke</string>
+  <string name="formatter_wpm">%s Ord pr. minut</string>
+  <string name="formatter_percentage">%s%%</string>
+  <string name="resetToDefault">Nulstil til standardindstillinger</string>
+  <string name="espeak_pitch_range">Tonevariation</string>
+  <string name="espeak_variant">Stemmehåndtering</string>
+  <string name="espeak_speak_punctuation">Tegnsætning</string>
+  <string name="punctuation_all">Alt</string>
+  <string name="punctuation_custom">Tilpasset</string>
+  <string name="punctuation_custom_fmt">Tilpas: %s</string>
+  <string name="punctuation_none">Ingen</string>
+  <string name="punctuation_characters">Tegnsætningstegn</string>
+  <string name="category">Type</string>
+  <string name="variant">Stemme</string>
+  <string name="variant_male">Mand</string>
+  <string name="variant_female">Kvinde</string>
+  <string name="variant_default">Standard</string>
+  <string name="variant_n">Stemme %d</string>
+  <string name="variant_young">Ung person</string>
+  <string name="variant_old">Gammel person</string>
+  <string name="variant_croak">Kvækkende</string>
+  <string name="variant_whisper">Hvisken</string>
+  <string name="import_voice_title">eSpeak ordbog</string>
+  <string name="import_voice_description">Importer en eSpeak stemme ordbogs fil fra et SD kort.</string>
+</resources>

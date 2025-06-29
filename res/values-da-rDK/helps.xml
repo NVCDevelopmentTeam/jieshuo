@@ -1,0 +1,670 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="help_items">
+        <item>
+        Standard navigering med fokusmarkøren:\n
+        Et stryg op med en enkelt finger, flytter som standard fokusmarkøren til det forrige element. Et stryg ned med en enkelt finger, flytter som standard fokusmarkøren til det næste element.\n
+        Du kan ændre hvordan fokusmarkøren skal navigerer inde i Jieshuos grundlæggende indstillinger, eller ved at vælge din foretrukne navigeringsmetode ved at gå ind i bevægelse og navigering, bevægelseshåndtering, navigeringsmetode.</item>
+        <item>
+Jieshuo menu: \n
+        Et stryg ned og så til højre med en enkelt finger, åbner som standard Jieshuo menuen. Når Jieshuo menuen er åbnet, vil der som standard være otte funktioner som du kan tilgå.   Det er muligt at udvide Jieshuo menuens  funktioner, flyt fokusmarkøren til mere, tryk to gange med en enkelt finger på det pågældende element, hvilket udvider Jieshuo menuen, i alt kan den udvides op til to gange, hvorved alle funktioner herefter vil blive vist.\n
+        Du kan selv tilpasse hvilke funktioner Jieshuo menuen skal vise, ved at gå ind i avancerede funktioner, Jieshuo menu og funktionsmenu.</item>
+        <item>
+        tale assistent:\n
+        Som standard aktiveres tale assistenten ved et stryg ned og så til venstre med en enkelt finger, en lyd vil blive afspillet som en Identifikation på at tale assistenten lytter, herefter kan du sige handlingen du ønsker udført. Et enkelt tryk på skærmen med en enkelt finger imens tale assistenten lytter, afbryder tale assistenten\n
+        Du kan tilpasse tale assistentens funktioner og muligheder ved at gå ind i avancerede funktioner, tale assistent og oversættelse.\n</item>
+        <item>
+Funktionsmenu: \n
+        Som standard åbnes funktionsmenuen ved et stryg op og så til højre med en enkelt finger. Du kan vælge og få vist forskellige elementer i funktionsmenuen, ved at gå ind i avancerede funktioner, jieshuo menu og funktionsmenu.</item>
+        <item>
+        Udvidelser:\n
+        Som standard åbnes udvidelsesvinduet ved et stryg op og så til venstre med en enkelt finger.\n
+        Du kan hente udvidelser ved at gå ind under hent indhold til Jieshuo, udvidelser.</item>
+        <item>
+        Kopier til udklipsholder, tilføj til udklipsholder, udklipsholder og opslagstavle:\n
+        Du finder de pågældende funktioner inde i funktionsmenuen.\n
+        Kopier til udklipsholder: kopierer det fokuserede element til  udklipsholderen.\n
+        Tilføj til udklipsholder: kopierer det fokuserede element efter det tidligere kopieret indhold i udklipsholderen.\n
+        Udklipsholder: Administrer kopieret indhold i udklipsholderen, står du placeret på et tekstfelt, kan du trykke to gange med en enkelt finger på et element, for at indsætte indholdet, foretag et langt tryk, for at tilføje indhold til din opslagstavle, redigere tekst, slette tekst, gemme tekst internt på din enhed, eller tilføj til notesblokken.\n
+        Opslagstavle: Tilgå opslagstavlen, for at se vigtig indhold du har tilføjet hertil, står du placeret på et tekstfelt, kan du trykke to gange med en enkelt finger på et element, for at indsætte indholdet, foretag et langt tryk, for at kopiere til udklipsholderen, redigere tekst, slette tekst, gemme tekst internt på din enhed, eller tilføj til notesblokken.\n
+        Du kan sikkerhedskopierer eller  slette alt indhold I udklipsholderen og opslagstavlen, ved at gå ind i avancerede funktioner, overførsler, administrer udklipsholderen</item>
+        <item>
+        Listekopiering (kun tilgængelig i den fulde version):\n
+        Listekopiering kan kopiere indhold fra fokusmarkørens placering til det sidste element fokusmarkøren indrammer.\n
+        Efter listekopiering er startet, skal du vente til processen er fuldført, varigheden på en listekopiering varierer af mængden på det indhold der kopieres. Når processen er fuldført, vil du blive informeret omkring  antallet af linjer og elementer der er blevet kopieret til udklipsholderen.\n
+        Under en listekopiering kan du stoppe processen ved at stryge i hvilken som helst retning med en enkelt finger.</item>
+        <item>
+        Fuld adgang til tekstmarkering (kun tilgængelig i den fulde version):\n
+        Tekstmarkering kan hjælpe med kopiering af indhold på eksempelvis en webside, eller et længere tekstafsnit.
+        Med tekstmarkerings funktionen kan du sorterer indholdet op i tegn, ord, linjer og sætninger, hvorefter du kan markere dele af teksten du ønsker og herefter kopierer den til udklipsholderen.\n
+        Når tekstmarkerings funktionen er åbnet, kan du udføre et langt tryk på et element for at sætte en startmarkering, udfør et langt tryk på det element hvor slutmarkeringen skal sættes, alle elementer imellem start og slutmarkeringen vil derved blive valgt.</item>
+        <item>
+        Tekstredigering (kun tilgængelig i den fulde version):\n
+        Du kan redigere tekst, alt fra tegn, ord, linjer, sætninger, eller hele teksten i tekstfelter eller tekst du læser.\n
+        Tryk to gange med en enkelt finger på et element for at redigere det,  udfør et langt tryk på et element for at få yderligere funktioner fremvist til det specifikke element.\n
+        Det er også muligt at gemme redigerede tekst internt på enheden. Tryk to gange med en enkelt finger på eksporter, navngiv teksten du gerne vil gemme, afslut nu processen ved at trykke to gange med en enkelt finger på ok.</item>
+        <item>
+        Listopstilling:\n
+        Få vist hele skærmbilledet i en listevisning, tryk på et element du gerne vil aktivere, hvorefter handlingen omgående udføres. Når funktionen listeopstilling er tilgået, kan du søge efter specifikt indhold, vises ingen søgeresultater, kan du trykke på rulle knapperne, hvorved listeopstilling vil rulle ned eller op, indtil indhold med et matchende resultat vises. Listeopstilling er praktisk ved navigering på en webside, da det i visse situationer, gør indhold mere overskueligt.</item>
+        <item>
+        Læsetilstand (kun tilgængelig i den fulde version):\n
+        Du kan læse websiders artikler I din browser, filtrer uønsket indhold fra, og få læst indhold automatisk op.</item>
+        <item>
+        Jieshuo kamera (kun tilgængelig i den fulde version):\n
+        Funktionen Jieshuo kamera kan identificerer scener, tekst, ansigter, billeder, dyr, planter, frugt og grøntsager, valuta, eller hjælpe dig med kameravejledning. Jieshuo kamera kan kun bruges med enhedens bagerste kamera, et tryk på lydstyrke op-tasten påbegynder registreringsprocessen, et tryk på lydstyrke ned-tasten skifter imellem de forskellige registreringsfunktioner.</item>
+        <item>
+        Hurtignavigering igennem lister:\n
+        Jieshuos Bevægelsesgenveje er bevægelser der gør navigering igennem lister langt hurtigere, eksempelvis inde i Facebook, Telegram og YouTube. Bevægelsesgenveje springer overflødige elementer over, for at gøre navigeringen mere simpel, hvilket gør læsning af indhold mere behagelig. Brug den højre bevægelsesgenvej for at navigere i en liste, brug den venstre bevægelsesgenvej for at navigere tilbage i en liste. Du kan finde flere indstillinger til Jieshuos bevægelsesgenveje, ved at gå ind under bevægelse og navigering, bevægelseshåndtering, bevægelsesgenveje.</item>
+        <item>
+        Systemdialoger der aldrig skal læses op og altid skal læses op:\n
+        Systemdialoger der aldrig skal læses op kan filtrere  systemdialoger indeholdende specifikt indhold.\n
+        Systemdialoger der altid skal læses op kan hjælpe med at læse systemdialoger indeholdende specifikt indhold.</item>
+        <item>
+        Fokusmarkør systemdialoger der aldrig skal læses op:\n
+        Du kan filtrere fokusmarkørens indhold til det specifikke element, det bruges primært til at filtrere tilgængelighedsvejledninger fra.</item>
+        <item>
+        Filtrer billeder på websider med manglende alternative billedbeskrivelser (kun tilgængelig i den fulde version):\n
+        Billeder der mangler en alternativ billedbeskrivelse på en webside, skal filtreres. Denne filtrering gør det nemmere og hurtigere at konstatere indholdet ikke indeholder en alternativ billedbeskrivelse, hvilket hjælper med unødvendig information omkring det aktuelle billede.</item>
+        <item>
+        Tilpas og hent bevægelsestemaer:\n
+        Du kan tilpasse indbyggede og udvidet funktioner til bevægelser.\n
+        Det er en mulighed at hente et nyt bevægelsestema, hvilket giver adgang til nye bevægelser. Du henter et nyt bevægelsestema, ved at gå ind i hent indhold til Jieshuo, bevægelsestema.\n
+        Efter bevægelsestemaet er blevet hentet, skal det vælges som dit bevægelsestema, før du kan bruge det. For at vælge et bevægelsestema, skal du gå ind i bevægelse og navigering, bevægelsestema.\n
+        Hvis du ønsker at oprette dit eget bevægelsestema, er det også en mulighed. For at oprette dit eget bevægelsestema, skal du gå ind i bevægelse og navigering, administrer bevægelsestemaer, opret nyt bevægelsestema. Efter et bevægelsestema er oprettet, kan du efterfølgende gå ind og tilpasse bevægelser efter dine egene preferencer. For at kunne tilpasse bevægelser i et specifikt bevægelsestema, skal du gå ind i bevægelse og navigering, tilpas bevægelsestema.</item>
+        <item>
+        Flerparts-bevægelser (kun tilgængelig i den fulde version):\n
+        En flerparts-bevægelse er en bevægelse der skal udføres indenfor en bestemt tidsperiode, efter en anden bevægelse er udført.\n
+        Flerparts-bevægelser kan slåes til ved at du går ind i bevægelse og navigering, bevægelseshåndtering.\n
+        Efter flerparts-bevægelser er slået til, har du som standard et halvt sekund til at udføre flerparts-bevægelsen du ønsker, denne tidsperiode kan du ændrer ved at gå ind i bevægelse og navigering, bevægelseshåndtering, varighed for flerparts-bevægelse. Du kan vælge hvilke handlinger der skal udføres til en specifik flerpartsbevægelse, ved at gå ind i bevægelse og navigering, bevægelseshåndtering, flerparts-bevægelser.</item>
+    </string-array>
+
+    <string-array name="code_help_items">
+        <item>
+        解说多功能手势和插件以lua语法配合解说专有API实现一个手势多个功能。\n
+        如果对lua和androlua比较熟悉，还可以实现更多功能，本文档只讲述专有API部分。
+        </item>
+        <item>
+        基本概念，\n
+        service，辅助功能服务，是这个读屏服务的核心，各个功能都是以这个服务为核心。
+        </item>
+        <item>
+        参数类型说明，\n
+        node，当前焦点，也就是当前获得辅助功能焦点的节点，一般操作都是针对这个焦点的。\n
+        bool，布尔值，true或者false。\n
+        text，文字内容。
+        </item>
+        <item>
+        return，返回，通知读屏你是否希望读屏执行该手势的默认操作。\n
+        返回true则拦截该手势，false返回上一层执行，如在单程序手势返回false，则由全局手势接管处理，全局手势返回false，由默认手势处理。
+        </item>
+        <item>
+        常用命令，\n
+        service.execute("命令",node)\n
+        这个命令就是解说为了简化开发内置的一些指令，如果执行成功返回true，失败返回false。
+        </item>
+        <item>
+        service.postExecute(时间,"命令",node)\n
+        延时执行命令，
+        </item>
+        <item>
+        text=service.getText(node)\n
+        获取指定节点的文字信息。
+        </item>
+        <item>
+        service.setText(node,text)\n
+        设置指定焦点输入框文字内容。
+        </item>
+        <item>
+        service.setText(text)\n
+        设置当前界面焦点输入框文字内容。
+        </item>
+        <item>
+        service.copy()\n
+        复制当前焦点的文字内容到剪切板。
+        </item>
+        <item>
+        service.appendCopy()\n
+        追加复制当前焦点的文字内容到剪切板。
+        </item>
+        <item>
+        service.copy(text)\n
+        复制指定的文字内容到剪切板。
+        </item>
+        <item>
+        service.appendCopy(text)\n
+        追加复制指定的文字内容到剪切板。
+        </item>
+        <item>
+        service.paste()\n
+        将剪切板内容粘贴到当前界面的输入框。
+        </item>
+        <item>
+        service.paste(node)\n
+        将剪切板内容粘贴到指定的输入框。
+        </item>
+        <item>
+        service.toNext()\n
+        下一个焦点。
+        </item>
+        <item>
+        service.toNext(node,bool)\n
+        指定节点下一个焦点，bool为true查找子节点，为false不查找子节点。
+        </item>
+        <item>
+        service.toPrevious()\n
+        上一个焦点。
+        </item>
+        <item>
+        service.toPrevious(node,bool)\n
+        指定节点上一个焦点，bool为true查找子节点，为false不查找子节点。
+        </item>
+        <item>
+        service.toNextChar()\n
+        下一个字符。
+        </item>
+        <item>
+        service.toPreviousChar()\n
+        上一个字符。
+        </item>
+        <item>
+        service.toNextLine()\n
+        下一行。
+        </item>
+        <item>
+        service.toPreviousLine()\n
+        上一行。
+        </item>
+        <item>
+        service.toTextStart()\n
+        到文字开头。
+        </item>
+        <item>
+        service.toTextEnd()\n
+        到文字结尾。
+        </item>
+        <item>
+        service.toListViewStart()\n
+        到列表开头。
+        </item>
+        <item>
+        service.toListViewEnd()\n
+        到列表结尾。
+        </item>
+        <item>
+        service.getRootNodeInfo()\n
+        获取根节点。
+        </item>
+        <item>
+        service.ocr(node)\n
+        文字识别指定节点，仅会员可用。
+        </item>
+        <item>
+        service.setTimerMode(bool)\n
+        开启或关闭计时器模式，bool为true开启，false为关闭。
+        </item>
+        <item>
+        service.setAutoReadEnabled(bool)\n
+        开启或关闭阅读模式，bool为true开启，false为关闭。
+        </item>
+        <item>
+        service.setAutoNext(bool)\n
+        开启或关闭自动浏览模式，bool为true开启，false为关闭。
+        </item>
+        <item>
+        bool=service.isEditView(node)\n
+        判断当前节点是否为编辑框。
+        </item>
+        <item>
+        bool=service.isSeekBar(node)\n
+        判断当前节点是否为进度滑块。
+        </item>
+        <item>
+        bool=service.isListView(node)\n
+        判断当前节点是否为列表。
+        </item>
+        <item>
+        bool=service.isInListView(node)\n
+        判断当前节点是否在列表中。
+        </item>
+        <item>
+        bool=service.isInWebView(node)\n
+        判断当前节点是否在网页中。
+        </item>
+        <item>
+        bool=service.isClick(node)\n
+        判断当前节点是否可以点击。
+        </item>
+        <item>
+        service.toClick()\n
+        点击当前焦点，在安卓7以上优先使用模拟手点击焦点。
+        </item>
+        <item>
+        service.toClick(node)\n
+        点击指定节点。
+        </item>
+        <item>
+        service.toLongClick()\n
+        长当前焦点。
+        </item>
+        <item>
+        service.toLongClick(node)\n
+        长按指定节点。
+        </item>
+        <item>
+        service.toBack()\n
+        返回。
+        </item>
+        <item>
+        service.toHome()\n
+        返回主屏幕。
+        </item>
+        <item>
+        service.toNotification()\n
+        打开通知栏。
+        </item>
+        <item>
+        service.toParent()\n
+        打开最近任务列表。
+        </item>
+        <item>
+        service.scrollBackward(node)\n
+        向后滚动。
+        </item>
+        <item>
+        service.scrollForward(node)\n
+        向前滚动。
+        </item>
+        <item>
+        service.loadGesturePackage(name)\n
+        载入手势方案。
+        </item>
+        <item>
+        service.click(x,y)\n
+        模拟人手点击屏幕指定位置，仅安卓7以上可用。
+        </item>
+        <item>
+        service.longClick(x,y)\n
+        模拟人手长按屏幕指定位置，仅安卓7以上可用。
+        </item>
+        <item>
+        service.press(x,y,t)\n
+        模拟人手在屏幕指定位置按住指定时间，仅安卓7以上可用。
+        </item>
+        <item>
+        service.swipe(x1,y1,x2,y2,t)\n
+        模式人手从一个位置用指定时间滑动到另一个位置，仅安卓7以上可用。
+        </item>
+        <item>
+        代码控制语句。
+        </item>
+        <item>
+        if 条件 then
+        要执行的代码\n
+        end\n
+        满足指定条件执行中间的代码。\n
+        如，\n
+        if service.isEditView(node) then
+          service.execute("拆分编辑",node)\n
+        return true\n
+        end\n
+        这句代码意思是，当焦点为编辑框时打开拆分编辑。
+        </item>
+        <item>
+        for n=1,重复次数 do\n
+        要执行代码\n
+        end\n
+        重复指定代码一定次数\n
+        如，\n
+        for n=1,10 do\n
+        service.toBack()\n
+        end\n
+        重复返回10次。
+        </item>
+        <item>
+        定义函数，\n
+        function 函数名称(参数)\n
+        函数代码\n
+        end
+        </item>
+        <item>
+        函数是代码的功能块，可以有效的重复利用代码。\n
+        如，下边是一个向列表添加数据的函数，在手势代码中，可以用于向一个列表添加重复的代码。\n
+        function append(t1,t2)\n
+        for k,v in ipairs(t2) do\n
+        table.insert(t1,v)\n
+        end \n
+        end \n
+        点击列表={}\n
+        按钮列表={"%点击","%返回"}\n
+        for n=1,10 do\n
+        append(点击列表,按钮列表)\n
+        end\n
+        向点击列表重复添加10次按钮列表的内容。
+        </item>
+        <item>
+        function 滑动()\n
+        service.swipe(500,300,500,1000,1000)\n
+        return true\n
+        end\n
+        模拟手在屏幕上滑动，可以在手势代码中使用，\n
+        service.click({{">微信","%滑动"}})\n
+        打开微信模拟在屏幕从上向下滑动。
+        </item>
+        <item>
+        自动点击，\n
+        service.click({按钮列表})\n
+        自动依次查找点击按钮列表的按钮，\n
+        按钮名称支持一些符号进行通配，\n
+        如前面加#(井号)，表示搜索的是自定义标签，\n
+        前边或后边加*(星号)表示前边或后边还有其他字符，\n
+        后边加#(井号)表示按钮次序，\n
+        后边加@(圈a)表示只在某一个程序查找，\n
+        加$(美元)表示执行完成后延时。\n
+        参数支持多个表，按顺序查找，\n
+        如果查找成功返回true，失败返回false。\n
+        完整说明见后边，
+        </item>
+        <item>
+        延时点击，\n
+        service.postClick(时间,{按钮列表})\n
+        延时一定时间执行点击，时间单位为毫秒，按钮列表定义与click相同，\n
+        没有返回值。
+        </item>
+        <item>
+        service.plugin("插件名称",node)\n
+        执行一个插件，\n
+        返回插件自定义返回的值。
+        </item>
+        <item>
+        解说手势以自动点击最为灵活，基础形式是
+        </item>
+        <item>
+        按钮列表={}\n
+        service.click(按钮列表)\n
+        return true
+        </item>
+        <item>
+        下边两行是固定的，自己只需要修改按钮列表即可，\n
+        按钮列表格式是用英文花括号或者叫大括号括起来的一些按钮名称和符号组成，
+        </item>
+        <item>
+        最简单的例子，
+        </item>
+        <item>
+        按钮列表={"确定"}\n
+        service.click(按钮列表)\n
+        return true
+        </item>
+        <item>
+        这个代码就能点击屏幕上的确定按钮，
+        </item>
+        <item>
+        按钮列表={\n
+        "确定",\n
+        "完成"\n
+        }
+        service.click(按钮列表)\n
+        return true
+        </item>
+        <item>
+        这是第一级花括号，这个是如果有确定点击确定，没有确定就点击完成，如果没有确定，就继续找完成，依次类推
+        </item>
+        <item>
+        有时候我们需要连续点击一系列按钮实现一些功能，这也是自动点击的优势，
+        </item>
+        <item>
+        按钮列表={\n
+        {"群资料卡","文件"}\n
+        }
+        service.click(按钮列表)\n
+        return true
+        </item>
+        <item>
+        这是二级花括号，在二级花括号中的按钮会被依次点击，直到某一个按钮不存在停止，
+        </item>
+        <item>
+        在花括号中嵌套括号可以实现连续点击，
+        </item>
+        <item>
+        在按钮列表中我们用一些符号来增强功能，
+        </item>
+        <item>
+        最常用的是 * 星号，英文星号，这个符号在按钮文字的前后，表示可以有其它内容
+        </item>
+        <item>
+        比如，在QQ主界面要点击，解说读屏交流群，而这个列表内容有时候后面会有99条未读之类内容，这时候就要写成，
+        </item>
+        <item>
+        解说读屏交流群*
+        </item>
+        <item>
+        # 井号，表示第几个结果，有时候一个界面有很多个名字一样的按钮，这时候需要用井号来说明点击第几个，
+        </item>
+        <item>
+        如，确定#1，表示第一个，也可以是负数，如确定#-1，表示最后一个。
+        </item>
+        <item>
+        这个井号在文字开头表示要查找的是按钮的标签，而不是按钮的名字，比如有的按钮没有名字，可以自己添加标签，并使用标签查找，
+        </item>
+        <item>
+        符号中英文竖线|，表示或，也就是如果有竖线前边的点击前边的，没有就点击后边的，\n
+        就拿刚才确定和完成的例子，可以简写为，\n
+        确定|完成\n
+        点击 确定 或者 完成，
+        </item>
+        <item>
+        &amp; 表示和，也就是只有有&amp;符号后边内容的界面，才点击前边内容的按钮，
+        </item>
+        <item>
+        确定&amp;*退出*\n
+        表示，只有这个界面有退出字样，比如确定退出吗，才点击确定，而没有退出两个字就不执行，
+        </item>
+        <item>
+        &amp;后边加叹号加关键字表示不包含后边内容时执行，\n
+        确定&amp;!*退出*\n
+        表示，只有这个界面没有退出字样时，才点击确定，而有退出两个字就不执行,和上一个情况相反，
+        </item>
+        <item>
+        &amp;符号在前表示检查当前焦点类型，\n
+        &amp;可编辑\n
+        &amp;可点击\n
+        &amp;列表\n
+        &amp;列表项目\n
+        &amp;编辑框\n
+        这个编辑框是弹出输入法的编辑框，
+        </item>
+        <item>
+        $美元符号，这个符号在文字后边表示点击该按钮后等待多长时间，执行下一步操作，
+        </item>
+        <item>
+        "群资料卡$2000","文件"\n
+        表示点击群资料卡卡后2秒点击文件，
+        </item>
+        <item>
+        &lt; 小于号，在后边表示重复执行，重复点击按钮多少次，\n
+        如
+        下一曲&lt;10\n
+        就重复点击下一曲十次，
+        </item>
+        <item>
+        小于号在前边表示只定位，不点击。\n
+        &lt;确定\n
+        找到确定但是不点击。
+        </item>
+        <item>
+        > 大于号，大于号在后边表示，等待次数符，\n
+        "群资料卡","文件>10"\n
+        手机反应有快有慢，用这个符号可以等待一定时间，这个代码表示，点击群资料卡后等待十秒，十秒以内以内如果出现文件就立即点击，如果超时就停止执行，
+        </item>
+        <item>
+        在开头的大于号可以打开程序，\n
+        >微信\n
+        打开微信，\n
+        >QQ\n
+        打开QQ，
+        </item>
+        <item>
+        还有一些扩展符号，可以执行其它功能，\n
+        % 可以执行一些常用指令，\n
+        比如，\n
+        %复制\n
+        可以复制，\n
+        %全文朗读\n
+        可以全屏朗读，
+        </item>
+        <item>
+        %还可以执行脚本中指定的函数，函数返回true表示继续执行，false停止继续执行，
+        </item>
+        <item>
+        []方括号包括的内容表示模拟直接点击，和使用辅助功能点击不同，直接点击可以解决一部分焦点不能点击的问题，\n
+        [播放]\n
+        模拟直接点击播放按钮，\n
+        [%点击]\n
+        模拟直接点击当前焦点
+        </item>
+        <item>
+        [x,y]方括号包含两个数字表示模拟点击指定位置，可以用整数表示绝对位置，或者用小数表示相对位置，\n
+        [300,500]\n
+        模拟点击从左算300像素，从上算500像素的位置，\n
+        [0.3,0.5]\n
+        模拟点击从左算 0.3 个屏幕宽度，从上算 0.5 个屏幕高度的位置，
+        </item>
+        <item>
+        [x,y,t]方括号包含三个数字表示模拟点击指定位置指定时间，前两个意思和上一个相同，第三个是以毫秒为单位的时间，\n
+        [300,500,1000]\n
+        模拟点击从左算 300 像素，从上算 500 像素的位置，持续 1000 毫秒
+        </item>
+        <item>
+        [x1,y1,x2,y2,t]方括号包含五个数字表示用指定时间模拟从x1，y1滑动到x2,y2位置，可以用整数表示绝对位置，或者用小数表示相对位置，\n
+        [300,500,300,800,1000]\n
+        模拟从左算 300 像素，从上算 500 像素的位置，用 1000 毫秒时间滑动到 300,800 的位置，
+        </item>
+        <item>
+        模拟滑动还可以指定滑动次数\n
+        [300,500,300,800,1000,10]\n
+        模拟从左算 300 像素，从上算 500 像素的位置，用 1000 毫秒时间滑动到 300,800 的位置，10 次,
+        </item>
+        <item>
+        在手势执行中有时会有一些不同情况出现，比如打开QQ，点击解说读屏交流群，点击群资料卡，点击文件，\n
+        如果有群公告，会在点击群资料卡那一步卡住，不能执行，\n
+        这时需要分支代码来执行这些突发情况，\n
+        我只是手写例子，可能会有错字导致不能执行，理解意思就可以了，
+        </item>
+        <item>
+        按钮列表={\n
+        {
+            ">QQ",\n
+        "解说读屏交流群*",\n
+        {
+              "我已阅读群公告|我知道了"\n
+        },\n
+        "群资料卡",\n
+        "文件"\n
+        }
+        }
+        </item>
+        <item>
+        因为QQ版本不同，确定群公告按钮也不一样，\n
+        可以看到，在点击解说读屏交流群后，多了一对花括号括起来按钮，这个括号中的按钮，有则执行，没有则跳过，不影响后边按钮的执行，\n
+        如果分支中有复杂操作，或者多种场景，我们还可以套入多个括号，
+        </item>
+        <item>
+        按钮列表={\n
+        {
+            ">QQ",\n
+        "解说读屏交流群*",\n
+        {
+             { "我已阅读群公告","确定"},\n
+        { "我知道了","确定"},\n
+        },\n
+        "群资料卡",\n
+        "文件"\n
+        }
+        }
+        </item>502
+    </string-array>
+
+    <string-array name="gesture_help_items">
+        <item>
+        Standardbevægelser:\n
+        Bevægelser med en enkelt finger skal udføres lige og bevægelsen skal foregå i et almindeligt tempo.\n
+        Bevægelser med en enkelt finger bruges f.eks. til at flytte fokusmarkøren, og benytte bevægelsesgenveje. Vær opmærksom på, at denne hjælpebeskrivelse forholder sig til at invertering af bevægelser ikke er valgt.</item>
+        <item>
+        En enkelt finger frem og tilbage:\n
+        Stryg op og så ned med en enkelt finger: flyt fokusmarkøren til det første element i skærmbilledet.\n
+        Stryg ned og så op med en enkelt finger: flyt fokusmarkøren til det sidste element i skærmbilledet.\n
+        Stryg til venstre og så højre med en enkelt finger: seneste apps.\n
+        Stryg til højre og så venstre med en enkelt finger: gå tilbage til det forrige skærmbillede.\n
+        Stryg op og så til højre med en enkelt finger: funktionsmenu.\n
+        Stryg ned og så til højre med en enkelt finger: Jieshuo menu.\n
+        Stryg op og så til venstre med en enkelt finger: udvidelser.\n
+        Stryg ned og så til venstre med en enkelt finger: tale assistent.\n
+        Stryg til venstre og så ned med en enkelt finger: tekstnavigeringsmarkør.\n
+        Stryg til venstre og så op med en enkelt finger: notifikationscenter.\n
+        Stryg til højre og så op med en enkelt finger: læs fra det næste element.\n
+        Stryg til højre og så ned med en enkelt finger: listeopstilling.\n
+        </item>
+        <item>
+        Almindelig navigering med fokusmarkøren:\n
+        Stryg ned med en enkelt finger: flyt fokusmarkøren til det næste element.\n
+        Stryg op med en enkelt finger: flyt fokusmarkøren til det forrige element.
+        </item>
+        <item>
+        Justering af en skyders værdi:\n
+		Stryg til venstre  med en enkelt finger: sænk skyderens værdi.\n
+        Stryg til højre med en enkelt finger: forøg skyderens værdi.
+        </item>
+        <item>
+        Tekstfelter:\n
+        Stryg til højre med en enkelt finger: flyt tekstmarkøren fremad tegn for tegn.\n
+        Stryg til venstre med en enkelt finger: flyt tekstmarkøren tilbage tegn for tegn.
+        </item>
+        <item>
+        Bevægelser  med Tekstnavigeringsmarkøren:\n
+        Stryg ned med en enkelt finger: flyt tekstnavigeringsmarkøren fremad en linje af gangen.\n
+        Stryg op med en enkelt finger: flyt tekstnavigeringsmarkøren tilbage en linje af gangen.\n
+        Stryg til højre med en enkelt finger: naviger fremad tegn for tegn.\n
+        Stryg til venstre med en enkelt finger: naviger tilbage tegn for tegn.\n
+        Stryg til højre og så ned med en enkelt finger: flyt en sætning fremad af gangen.\n
+        Stryg til venstre og så op med en enkelt finger: Går en sætning tilbage af gangen.\n
+        Stryg op og så til højre med en enkelt finger: tilgå markeringsmarkøren.\n
+        Stryg til venstre og så ned med en enkelt finger: luk tekstnavigeringsmarkøren og vend tilbage til skærmfokusmarkøren..
+        </item>
+        <item>
+        Bevægelser når markeringsmarkøren er aktiv: \n
+        Tryk en gang med en enkelt finger: læs valgt tekst op.\n
+        Stryg op med en enkelt finger: markerer en linje frem af gangen.\n
+        Stryg ned med en enkelt finger: markerer en linje tilbage af gangen.\n
+        Stryg til højre med en enkelt finger: markerer et tegn frem af gangen.\n
+        Stryg til venstre med en enkelt finger: markerer et tegn tilbage af gangen.\n
+        Stryg til venstre og så ned med en enkelt finger: markerer en sætning frem af gangen.\n
+        Stryg til højre og så op med en enkelt finger: markerer en sætning af gangen.\n
+        Stryg op og så til højre med en enkelt finger: luk markeringsmarkøren og vend tilbage til tekstnavigeringsmarkøren.\n
+        Stryg ned og så til højre med en enkelt finger: kopier markeret tekst til udklipsholder.\n
+        Stryg op og så til venstre med en enkelt finger: tilføj markeret indhold til udklipsholder.\n
+        Stryg til højre og så op med en enkelt finger: kopier alt tekst til udklipsholderen.
+        </item>
+        <item>
+        Tale assistent: \n
+        Åbn + navn på specifik app: åbn specifik app du ønsker.
+        Sig send + tekst du gerne vil sende: sender hvad du har sagt inde i dine beskedapps, eksempelvis beskeder, Messenger og WhatsApp.
+        Sig søg efter + hvad du gerne vil søge efter: udfør en online søgning efter det indhold du beder om.
+        Tale assistenten kan udvides med funktioner, ved at du går ind i avancerede funktioner, tale assistent og oversættelse, tale assistent funktioner. Tale assistenten kan også tilgå og bruge dine udvidelser og Tilføjelsesprogrammer.
+        </item>
+    </string-array>
+    <string-array name="voice_helper_help_items">
+        <item>Åbn app: åbn specifik app du beder tale assistenten om at åbne for dig.</item>
+        <item>Sig installer + den app du gerne vil hente: åbner den givende app i play butik, hvorefter den kan installeres.</item>
+        <item>Sig afinstallere + programmet der skal afinstalleres: kommandoen vil afinstallerer et givende program på din enhed.</item>
+        <item>Sig læs hele skærmen op: læser hele skærmbilledet op.</item>
+        <item>Sig læs fra det næste element: læser fra det næste element.</item>
+        <item>Registrer tændt lys: informerer dine nuværende omgivelsers lysniveau.</item>
+        <item>Tryk: aktiverer det fokuserede element.</item>
+        <item>Sig aktiver + navn på element: aktivere et specifikt element du beder tale assistenten om.</item>
+        <item>Sig kopier til udklipsholder: kopierer det fokuserede element til udklipsholderen.</item>
+        <item>Sig oversæt: kommandoen vil oversætte det fokuserede element, efterfølgende kan du tilgå  resultatet i udklipsholderen.</item>
+
+    </string-array>
+
+</resources>
