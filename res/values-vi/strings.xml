@@ -241,7 +241,7 @@
     <string name="use_list_item_index_title">Đọc vị trí của mục trong danh sách</string>
     <string name="use_left_right_summary">Điều chỉnh xem các cử chỉ vuốt có bị đảo ngược đối với cài đặt cử chỉ mặc định hay không. Khi bị đảo ngược, các thao tác vuốt sang trái và phải sẽ điều hướng theo các mục trong khi thao tác vuốt lên và xuống thực hiện các tác vụ phím tắt</string>
     <string name="use_old_previous_title">Sử dụng phương pháp di chuyển tiêu điểm mặc định</string>
-    <string name="baidu_tieba_title">解说读屏贴吧交流</string>
+<string name="baidu_tieba_title">Diễn đàn Baidu – Thảo luận về trình đọc màn hình</string>
     <string name="use_single_tts_title">Sử dụng một công cụ giọng nói duy nhất</string>
     <string name="use_auto_update_title">Tự động kiểm tra cập nhật</string>
     <string name="use_pager_scroll_title">Tự động cuộn trang</string>
@@ -258,7 +258,7 @@
     <string name="key_shortcut_setting_title">Cài đặt phím âm lượng</string>
     <string name="gesture_title">Cài đặt cử chỉ</string>
     <string name="use_single_tap_summary">Điều chỉnh xem nhấn một lần vào tiêu điểm có kích hoạt tiêu điểm đó hay không.</string>
-    <string name="use_old_previous_summary">传统方式上一个焦点是下一个焦点的简单返回，取消后将使用新的上一个焦点方式，按照焦点层级返回，在一直向上浏览时更容易掌握内容所属关系</string>
+<string name="use_old_previous_summary">Cách cũ: Quay lại điểm tập trung trước một cách đơn giản. Nếu tắt, hệ thống sẽ dùng cách mới — quay lại theo cấp bậc tiêu điểm, giúp dễ hiểu hơn khi duyệt ngược các nội dung</string>
     <string name="use_headset_key_summary">Điều chỉnh xem phím tai nghe có được sử dụng để điều khiển trình đọc màn hình hay không. Nhấn nhanh phím sẽ di chuyển tiêu điểm sang mục tiếp theo, nhấn vừa phải sẽ kích hoạt mục dưới tiêu điểm và cuối cùng, nhấn và giữ phím sẽ kích hoạt trợ lý giọng nói</string>
     <string name="list_view_settings_title">Cài đặt đọc danh sách</string>
     <string name="view_label_settings_title">Cài đặt đọc nhãn</string>
@@ -294,8 +294,8 @@
     <string name="use_speak_call_phone_title">Đọc ID của người gọi</string>
     <string name="use_speak_changed_volume_summary">Khi chọn, Jieshuo sẽ đọc khi âm lượng thay đổi</string>
     <string name="use_speak_changed_volume_title">Đọc âm lượng khi thay đổi</string>
-    <string name="vip_qq_group_title">Jieshuo+ VIP QQ group</string>
-    <string name="qq_group2_title">Jieshuo nhóm QQ thứ 2 dành cho thành viên</string>
+    <string name="vip_qq_group_title">Nhóm QQ VIP của Jieshuo+</string>
+    <string name="qq_group2_title">nhóm QQ thứ 2 dành cho thành viên Jieshuo</string>
 
 
     <string name="right_long_edge_gesture_title">Vuốt sang trái từ cạnh phải của màn hình và giữ</string>
@@ -376,7 +376,7 @@
     <string name="restore_settings_title">Khôi phục cài đặt</string>
     <string name="restore_settings_summary">Chọn tùy chọn này cho phép bạn khôi phục cài đặt từ bản sao lưu đã tạo trước đó. Xin lưu ý rằng tùy chọn này sẽ ghi đè các cài đặt hiện tại của bạn</string>
     <string name="backup_settings_summary">Chọn tùy chọn này cho phép bạn tạo một bản sao lưu đầy đủ các cài đặt hiện tại của mình. Xin lưu ý rằng tùy chọn này sẽ ghi đè lên bản sao lưu hiện tại của bạn nếu có</string>
-    <string name="jieshuo_bbs_title">Jieshuo+ Diễn đàn. Lưu ý bằng tiếng Trung</string>
+    <string name="jieshuo_bbs_title">Diễn đàn Jieshuo+. Lưu ý bằng tiếng Trung</string>
     <string name="use_symbol_speak_title">Đọc dấu câu</string>
     <string name="use_cloud_label_title">Sử dụng nhãn từ máy chủ</string>
     <string name="use_cloud_label_summary">Khi chọn, Jieshuo sẽ sử dụng nhãn từ máy chủ được chia sẻ từ những người dùng khác</string>
@@ -602,7 +602,7 @@
     <string name="command_ocr_text">Nhận dạng văn bản</string>
     <string name="camera_title">Jieshuo Camera</string>
     <string name="command_disable_touch">Vô hiệu hóa duyệt bằng cách chạm</string>
-    <string name="command_disable_feedback">rừng tạm thời jieshuo</string>
+    <string name="command_disable_feedback"> tạm thời dừng jieshuo</string>
     <string name="command_to_notifications">thanh thông báo</string>
     <string name="command_notifications">Bóng thông báo</string>
     <string name="command_battery_level">phần trăm pin</string>
@@ -693,12 +693,12 @@
     <string name="command_speak">Nói</string>
     <string name="command_intput">Nhập</string>
     <string name="app">Ứng dụng</string>
-    <string name="command_to_previous_section">tiêu đề trước</string>
-    <string name="command_to_next_section">tiêu đề tiếp</string>
-    <string name="command_to_previous_link">Liên kết trước</string>
-    <string name="command_to_next_link">liên kết tiếp</string>
-    <string name="command_to_previous_control">Điều khiển trước</string>
-    <string name="command_to_next_control">Điều khiển tiếp</string>
+    <string name="command_to_previous_section">tiêu đề trước đó</string>
+    <string name="command_to_next_section">tiêu đề kế tiếp</string>
+    <string name="command_to_previous_link">Liên kết trước đó</string>
+    <string name="command_to_next_link">nliên kết kế tiếp</string>
+    <string name="command_to_previous_control">Điều khiển trước đó</string>
+    <string name="command_to_next_control">Điều khiển kế tiếp</string>
     <string name="system_tts_engine_title">Công cụ giọng nói hệ thống</string>
     <string name="cancel">Hủy</string>
     <string name="timer_interval_title">khoảng thời gian hẹn giờ</string>
@@ -1233,17 +1233,17 @@
     <string name="up_volume_3_key_title">Nhấn ba lần vào nút tăng âm lượng</string>
     <string name="down_volume_2_key_title">Nhấn đúp vào nút giảm âm lượng</string>
     <string name="down_volume_3_key_title">Nhấn ba lần vào nút giảm âm lượng</string>
-    <string name="command_to_next_char">Kí tự tiếp</string>
-    <string name="command_to_previous_char">Kí tự trước</string>
-    <string name="command_to_next_word">từ tiếp</string>
-    <string name="command_to_previous_word">từ trước</string>
-    <string name="command_to_next_row">câu tiếp</string>
-    <string name="command_to_previous_row">Câu trước</string>
-    <string name="command_to_next_paragraph">Đoạn tiếp</string>
-    <string name="command_to_previous_paragraph">Đoạn trước</string>
+    <string name="command_to_next_char">Kí tự kế tiếp</string>
+    <string name="command_to_previous_char">Kí tự trước đó</string>
+    <string name="command_to_next_word">từ kế tiếp</string>
+    <string name="command_to_previous_word">từ trước đó</string>
+    <string name="command_to_next_row">câu kế tiếp</string>
+    <string name="command_to_previous_row">Câu trước đó</string>
+    <string name="command_to_next_paragraph">Đoạn kế tiếp</string>
+    <string name="command_to_previous_paragraph">Đoạn trước đó</string>
     <string name="command_to_head_set_key">Phát hoặc tạm dừng</string>
     <string name="msg_selected_from_to">%d đến %d đã chọn</string>
-    <string name="album_activity">Album Jieshuo</string>
+       <string name="album_activity">Album của Jieshuo</string>
     <string name="command_toggle_tts_engine">Chuyển đổi công cụ giọng nói hiện đang sử dụng</string>
     <string name="command_speak_light">Nói độ sáng hiện tại</string>
     <string name="use_recording_stop_title">tạm dừng đọc trong khi micrô đang được sử dụng</string>
@@ -1430,7 +1430,7 @@
     <string name="light_50">trung bình</string>
     <string name="light_1000">Sáng</string>
     <string name="light_10000">Rất sáng</string>
-    <string name="ambient_light">%d Lux, %s </string>
+1828    <string name="ambient_light">%d Lux, %s </string>
     <string name="msg_load_fail">Không thể tải tùy chọn</string>
     <string name="msg_up">Trước</string>
     <string name="msg_down">Tiếp</string>
@@ -1642,7 +1642,7 @@
     <string name="are_you_delete_all_logs">Bạn có chắc chắn xóa tất cả nhật ký?</string>
     <string name="msg_speech_error_audio">Lỗi âm thanh</string>
     <string name="msg_speech_error_speech_timeout">Tại sao bạn không nói?</string>
-    <string name="msg_speech_error_client">Lỗi client</string>
+    <string name="msg_speech_error_client">Lỗi MÁY KHÁCH</string>
     <string name="msg_speech_error_permissions">Không đủ quyền</string>
     <string name="msg_speech_error_network">Lỗi mạng</string>
     <string name="msg_speech_error_busy">Đang bận</string>
@@ -1659,7 +1659,7 @@
     <string name="msg_remove_speech_recognition_listener">Tiện ích đã dừng theo dõi trạng thái nhận dạng giọng nói</string>
     <string name="timer_start">Bắt đầu</string>
     <string name="trans_error">Bản dịch lỗi</string>
-    <string name="incoming">Quộc gọi đến</string>
+    <string name="incoming">Cuộc gọi đến</string>
     <string name="net_2g_level">%s Tín hiệu 2G %d vạch</string>
     <string name="net_4g_level">%s Tín hiệu 4G %d vạch</string>
     <string name="net_3g_level">%s Tín hiệu 3G %d vạch</string>
